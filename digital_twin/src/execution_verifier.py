@@ -1,6 +1,7 @@
 import json
 import sqlite3
 from pathlib import Path
+from contextlib import closing
 
 
 SCHEMA = """
@@ -23,9 +24,9 @@ def initialize_database(db_path):
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
-    with sqlite3.connect(db_path) as conn:
-        conn.execute(SCHEMA)
-        conn.commit()
+    with closing(sqlite3.connect(db_path)) as conn:
+        with conn:
+            conn.execute(SCHEMA)
 
     return str(db_path)
 
@@ -51,27 +52,27 @@ def execute_agreement(agreement, profile, db_path, booking_id="booking-001"):
 
     initialize_database(db_path)
 
-    with sqlite3.connect(db_path) as conn:
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO bookings (
-                booking_id, hotel, area, total_price, nights,
-                verified, agent, agreement_json, status
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-            (
-                booking_id,
-                agreement["hotel"],
-                agreement["area"],
-                price,
-                nights,
-                int(agreement["verified"] is True),
-                agreement["agent"],
-                json.dumps(agreement, sort_keys=True),
-                "accepted"
+    with closing(sqlite3.connect(db_path)) as conn:
+        with conn:
+            conn.execute(
+                """
+                INSERT INTO bookings (
+                    booking_id, hotel, area, total_price, nights,
+                    verified, agent, agreement_json, status
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    booking_id,
+                    agreement["hotel"],
+                    agreement["area"],
+                    price,
+                    nights,
+                    int(agreement["verified"] is True),
+                    agreement["agent"],
+                    json.dumps(agreement, sort_keys=True),
+                    "accepted"
+                )
             )
-        )
-        conn.commit()
 
     return {
         "booking_id": booking_id,
@@ -83,8 +84,9 @@ def execute_agreement(agreement, profile, db_path, booking_id="booking-001"):
     }
 
 
-def verify_persisted_booking(booking_id, expected_agreement,
-                             profile, db_path):
+def verify_persisted_booking(
+    booking_id, expected_agreement, profile, db_path
+):
     """
     Independently reopen SQLite and compare persisted values with
     the original agreement and user constraints.
@@ -99,9 +101,10 @@ def verify_persisted_booking(booking_id, expected_agreement,
             "errors": ["database_missing"]
         }
 
-    # Open a fresh connection and read the persisted row.
-    with sqlite3.connect(db_path) as conn:
+    # Read the persisted row using a fresh, explicitly closed connection.
+    with closing(sqlite3.connect(db_path)) as conn:
         conn.row_factory = sqlite3.Row
+
         row = conn.execute(
             "SELECT * FROM bookings WHERE booking_id = ?",
             (booking_id,)
@@ -119,7 +122,9 @@ def verify_persisted_booking(booking_id, expected_agreement,
         "area": expected_agreement.get("area"),
         "total_price": expected_agreement.get("total_price"),
         "nights": profile.get("nights"),
-        "verified": 1 if expected_agreement.get("verified") is True else 0,
+        "verified": (
+            1 if expected_agreement.get("verified") is True else 0
+        ),
         "agent": expected_agreement.get("agent"),
         "status": "accepted",
     }
@@ -134,12 +139,20 @@ def verify_persisted_booking(booking_id, expected_agreement,
     # Verify the stored agreement snapshot agrees with stored columns.
     try:
         snapshot = json.loads(row["agreement_json"])
-        for field in ("hotel", "area", "total_price", "verified", "agent"):
+
+        for field in (
+            "hotel", "area", "total_price", "verified", "agent"
+        ):
             stored_value = row[field]
+
             if field == "verified":
                 stored_value = bool(stored_value)
+
             if snapshot.get(field) != stored_value:
-                errors.append(f"agreement_snapshot_{field}_mismatch")
+                errors.append(
+                    f"agreement_snapshot_{field}_mismatch"
+                )
+
     except (TypeError, json.JSONDecodeError):
         errors.append("agreement_snapshot_invalid")
 
@@ -147,14 +160,21 @@ def verify_persisted_booking(booking_id, expected_agreement,
     try:
         if row["total_price"] > int(profile["max_total_price"]):
             errors.append("persisted_price_exceeds_budget")
+
         if row["nights"] != int(profile["nights"]):
             errors.append("persisted_duration_mismatch")
-        if profile.get("require_verified", True) and row["verified"] != 1:
+
+        if (
+            profile.get("require_verified", True)
+            and row["verified"] != 1
+        ):
             errors.append("persisted_hotel_not_verified")
+
         if row["area"].casefold() != str(
             profile["preferred_area"]
         ).casefold():
             errors.append("persisted_area_mismatch")
+
     except (TypeError, ValueError, KeyError):
         errors.append("profile_or_record_constraint_check_failed")
 
