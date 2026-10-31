@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-26T14:07:37.345437+00:00",
+  "purpose": "Post-privacy-fix evidence snapshot; historical Phase 7 manifest preserved",
+  "project_root": "/kaggle/working/digital_twin",
+  "model_evaluation": {
+    "split": "held-out test",
+    "test_examples": 1052,
+    "comparison_file": "experiments/final_results/final_model_comparison.json"
+  },
+  "privacy_fix_validation_status": "passed",
+  "artifacts": {
+    "src/digital_twin.py": {
+      "exists": true,
+      "size_bytes": 10466,
+      "sha256": "2956c6a964821330d823af53a72a8f0a33ea6428c3d77737159c337eaa304ec1"
+    },
+    "PHASE7_ACADEMIC_REPORT_DRAFT.md": {
+      "exists": true,
+      "size_bytes": 9142,
+      "sha256": "e67f2e39304e6e2dd5a7d455fc750796e2011ccba5e0b7cfb6f56a2eb65a1411"
+    },
+    "experiments/final_results/final_model_comparison.json": {
+      "exists": true,
+      "size_bytes": 1395,
+      "sha256": "143ff8984d15441eed2ea6a0c218f900494f8f439ffb2116204ff149748066a6"
+    },
+    "experiments/final_results/privacy_fix_validation.json": {
+      "exists": true,
+      "size_bytes": 1129,
+      "sha256": "af669987c7bcf710d5af5c9f9de4206a28d9166ba612282751004aeb0c4ea911"
+    },
+    "PHASE7_ACADEMIC_REPORT_DRAFT.pre_final_audit.md": {
+      "exists": true,
+      "size_bytes": 7424,
+      "sha256": "3915a4a8c3c1b95ee81fa926f760eb5e3f4b61da66c6d5b75299142862fe9b5f"
+    },
+    "src/digital_twin.py.pre_privacy_fix.bak": {
+      "exists": true,
+      "size_bytes": 9232,
+      "sha256": "aa9d988e55a035354a15e9b8f2efdac7ddb46fbe8bd2b1e6af8abe68c6c700f9"
+    }
+  },
+  "notes": [
+    "This manifest does not replace the historical Phase 7 evidence manifest.",
+    "Classification accuracy, macro-F1, and balanced accuracy are distinct from generation exact-match and token-overlap metrics.",
+    "Prototype service execution is simulated."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-26T13:53:12.649905+00:00",
+  "scope": "Final-results supplement; original Phase 7 manifest preserved.",
+  "artifacts": [
+    {
+      "path": "experiments/final_results/final_model_comparison.json",
+      "size_bytes": 1395,
+      "sha256": "143ff8984d15441eed2ea6a0c218f900494f8f439ffb2116204ff149748066a6"
+    },
+    {
+      "path": "experiments/flan_t5_small_negotiation/test_metrics_corrected.json",
+      "size_bytes": 2235,
+      "sha256": "66449a83861ac898b89abb17f339823715786445848ce399f89634881d53351a"
+    },
+    {
+      "path": "experiments/phase3_final_test_evaluation/test_metrics.json",
+      "size_bytes": 2085,
+      "sha256": "86720512983c3d76c761d3b19973761560dbc265155b8bff8e4ac5928228312d"
+    },
+    {
+      "path": "experiments/phase3_final_test_evaluation/test_predictions.csv",
+      "size_bytes": 73651,
+      "sha256": "22f462b73e86e026e15fe8f7cb54d2570069d9d69fcd7b4e53574b3fff1aa1d5"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/run_summary.json",
+      "size_bytes": 1260,
+      "sha256": "f28bf77547c9e6b1f421ddc6ee9cf7667e6fdbde65ffc7a958436a2347d5eff0"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/verification_report.json",
+      "size_bytes": 162,
+      "sha256": "c25eb5c20b7b8a8e5e0b68bc44f5648e788a0f73176579190dbe0f471013ec18"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/failure_path_trace.json",
+      "size_bytes": 3308,
+      "sha256": "c2f64ba8a7582f0c8b757d8966c36110134029a09246ce25304fd71d531c3181"
+    }
+  ]
+}

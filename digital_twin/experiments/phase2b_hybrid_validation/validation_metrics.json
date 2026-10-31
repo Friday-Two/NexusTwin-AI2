@@ -1,0 +1,91 @@
+{
+  "examples": 1087,
+  "flan_t5_category_metrics": {
+    "accuracy": 0.8638454461821528,
+    "macro_f1": 0.4551077337437476,
+    "balanced_accuracy": 0.48605625767948046
+  },
+  "classifier_category_metrics": {
+    "accuracy": 0.766329346826127,
+    "macro_f1": 0.5871524150574511,
+    "balanced_accuracy": 0.6202415285890983
+  },
+  "hybrid_category_metrics": {
+    "accuracy": 0.766329346826127,
+    "macro_f1": 0.5871524150574511,
+    "balanced_accuracy": 0.6202415285890983
+  },
+  "flan_allocation_exact_match_accuracy": 0.09597156398104266,
+  "hybrid_definition": "Classifier predicts category; FLAN-T5 allocation text is retained when classifier predicts allocation. This evaluation measures category prediction; generated allocation text is not re-evaluated.",
+  "classification_report": {
+    "allocation": {
+      "precision": 0.9052069425901201,
+      "recall": 0.8033175355450237,
+      "f1-score": 0.8512241054613936,
+      "support": 844.0
+    },
+    "disagreement": {
+      "precision": 0.24120603015075376,
+      "recall": 0.37209302325581395,
+      "f1-score": 0.2926829268292683,
+      "support": 129.0
+    },
+    "disconnect": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 6.0
+    },
+    "no_agreement": {
+      "precision": 0.7894736842105263,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.8713692946058091,
+      "support": 108.0
+    },
+    "accuracy": 0.766329346826127,
+    "macro avg": {
+      "precision": 0.5673049975711834,
+      "recall": 0.6202415285890983,
+      "f1-score": 0.5871524150574511,
+      "support": 1087.0
+    },
+    "weighted avg": {
+      "precision": 0.8117510536616793,
+      "recall": 0.766329346826127,
+      "f1-score": 0.7840819929970737,
+      "support": 1087.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      678,
+      148,
+      4,
+      14
+    ],
+    [
+      67,
+      48,
+      0,
+      14
+    ],
+    [
+      4,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      105
+    ]
+  ],
+  "class_order": [
+    "allocation",
+    "disagreement",
+    "disconnect",
+    "no_agreement"
+  ]
+}

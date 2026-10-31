@@ -1,0 +1,75 @@
+{
+  "seed": 42,
+  "model_name": "google/flan-t5-small",
+  "max_input_length": 512,
+  "max_target_length": 96,
+  "length_audit": {
+    "train": {
+      "input": {
+        "examples": 10095,
+        "max_tokens_before_truncation": 600,
+        "mean_tokens": 153.03,
+        "median_tokens": 135,
+        "over_limit": 10,
+        "over_limit_percent": 0.099,
+        "limit": 512
+      },
+      "target": {
+        "examples": 10095,
+        "max_tokens_before_truncation": 55,
+        "mean_tokens": 30.78,
+        "median_tokens": 25,
+        "over_limit": 0,
+        "over_limit_percent": 0.0,
+        "limit": 96
+      }
+    },
+    "validation": {
+      "input": {
+        "examples": 1087,
+        "max_tokens_before_truncation": 455,
+        "mean_tokens": 153.53,
+        "median_tokens": 137,
+        "over_limit": 0,
+        "over_limit_percent": 0.0,
+        "limit": 512
+      },
+      "target": {
+        "examples": 1087,
+        "max_tokens_before_truncation": 55,
+        "mean_tokens": 30.9,
+        "median_tokens": 25,
+        "over_limit": 0,
+        "over_limit_percent": 0.0,
+        "limit": 96
+      }
+    },
+    "test": {
+      "input": {
+        "examples": 1052,
+        "max_tokens_before_truncation": 367,
+        "mean_tokens": 150.59,
+        "median_tokens": 138,
+        "over_limit": 0,
+        "over_limit_percent": 0.0,
+        "limit": 512
+      },
+      "target": {
+        "examples": 1052,
+        "max_tokens_before_truncation": 55,
+        "mean_tokens": 31.09,
+        "median_tokens": 25,
+        "over_limit": 0,
+        "over_limit_percent": 0.0,
+        "limit": 96
+      }
+    }
+  },
+  "tokenized_examples": {
+    "train": 10095,
+    "validation": 1087,
+    "test": 1052
+  },
+  "truncation_enabled": true,
+  "dynamic_batch_padding": true
+}

@@ -1,0 +1,88 @@
+{
+  "model": "google/flan-t5-small",
+  "representation_version": "plain_text_outcome_labels_v1",
+  "original_splits_modified": false,
+  "summary": {
+    "train": {
+      "examples": 10095,
+      "categories": {
+        "allocation": 7882,
+        "disagreement": 1179,
+        "no_agreement": 978,
+        "disconnect": 56
+      },
+      "output_file": "/kaggle/working/digital_twin/processed_model_targets/train.jsonl"
+    },
+    "validation": {
+      "examples": 1087,
+      "categories": {
+        "disagreement": 129,
+        "allocation": 844,
+        "no_agreement": 108,
+        "disconnect": 6
+      },
+      "output_file": "/kaggle/working/digital_twin/processed_model_targets/validation.jsonl"
+    },
+    "test": {
+      "examples": 1052,
+      "categories": {
+        "allocation": 804,
+        "disagreement": 142,
+        "no_agreement": 96,
+        "disconnect": 10
+      },
+      "output_file": "/kaggle/working/digital_twin/processed_model_targets/test.jsonl"
+    }
+  },
+  "outcome_label_round_trip": {
+    "OUTCOME: DISAGREEMENT": {
+      "decoded": "OUTCOME: DISAGREEMENT",
+      "round_trip_exact": true,
+      "token_pieces": [
+        "▁",
+        "OUT",
+        "COM",
+        "E",
+        ":",
+        "▁",
+        "DIS",
+        "AGR",
+        "E",
+        "EMENT"
+      ]
+    },
+    "OUTCOME: NO_AGREEMENT": {
+      "decoded": "OUTCOME: NO_AGREEMENT",
+      "round_trip_exact": true,
+      "token_pieces": [
+        "▁",
+        "OUT",
+        "COM",
+        "E",
+        ":",
+        "▁NO",
+        "_",
+        "AGR",
+        "E",
+        "EMENT"
+      ]
+    },
+    "OUTCOME: DISCONNECT": {
+      "decoded": "OUTCOME: DISCONNECT",
+      "round_trip_exact": true,
+      "token_pieces": [
+        "▁",
+        "OUT",
+        "COM",
+        "E",
+        ":",
+        "▁",
+        "DIS",
+        "CON",
+        "N",
+        "ECT"
+      ]
+    }
+  },
+  "allocation_targets_preserved": true
+}

@@ -1,0 +1,41 @@
+{
+  "train": {
+    "records": 10095,
+    "target_categories": {
+      "allocation": 7882,
+      "disagreement": 1179,
+      "no_agreement": 978,
+      "disconnect": 56
+    },
+    "allocation_validation": {
+      "valid": 7882
+    },
+    "processed_file": "/kaggle/working/digital_twin/processed/train.jsonl"
+  },
+  "validation": {
+    "records": 1087,
+    "target_categories": {
+      "disagreement": 129,
+      "allocation": 844,
+      "no_agreement": 108,
+      "disconnect": 6
+    },
+    "allocation_validation": {
+      "valid": 844
+    },
+    "processed_file": "/kaggle/working/digital_twin/processed/validation.jsonl"
+  },
+  "test": {
+    "records": 1052,
+    "target_categories": {
+      "allocation": 804,
+      "disagreement": 142,
+      "no_agreement": 96,
+      "disconnect": 10
+    },
+    "allocation_validation": {
+      "valid": 804
+    },
+    "processed_file": "/kaggle/working/digital_twin/processed/test.jsonl"
+  }
+}

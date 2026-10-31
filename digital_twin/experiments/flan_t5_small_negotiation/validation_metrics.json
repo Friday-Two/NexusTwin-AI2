@@ -1,0 +1,29 @@
+{
+  "model": "google/flan-t5-small",
+  "checkpoint": "/kaggle/working/digital_twin/models/flan_t5_small_negotiation/best_fp32",
+  "split": "validation",
+  "examples": 1087,
+  "exact_matches": 88,
+  "exact_match_accuracy": 0.08095676172953081,
+  "category_correct": 838,
+  "category_accuracy": 0.7709291628334867,
+  "target_category_counts": {
+    "disagreement": 129,
+    "allocation": 844,
+    "no_agreement": 108,
+    "disconnect": 6
+  },
+  "predicted_category_counts": {
+    "allocation": 972,
+    "other": 115
+  },
+  "token_micro_precision": 0.5743960609324511,
+  "token_micro_recall": 0.5723704385157927,
+  "token_micro_f1": 0.5733814607173028,
+  "token_metric_definition": "Whitespace-token multiset overlap; these are not semantic metrics.",
+  "generation": {
+    "max_new_tokens": 64,
+    "num_beams": 1,
+    "do_sample": false
+  }
+}

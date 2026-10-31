@@ -1,0 +1,44 @@
+{
+  "baseline": "majority_target",
+  "seed": 42,
+  "training_examples": 10095,
+  "majority_target": "<disagree> <disagree> <disagree> <disagree> <disagree> <disagree>",
+  "majority_target_count": 1179,
+  "training_majority_proportion": 0.11679049034175334,
+  "validation": {
+    "split": "validation",
+    "examples": 1087,
+    "exact_matches": 129,
+    "exact_match_accuracy": 0.11867525298988041,
+    "target_category_counts": {
+      "disagreement": 129,
+      "allocation": 844,
+      "no_agreement": 108,
+      "disconnect": 6
+    },
+    "baseline_target_category": "disagreement",
+    "category_accuracy": 0.11867525298988041,
+    "correct_exact_matches_by_category": {
+      "disagreement": 129
+    },
+    "category_correct": 129
+  },
+  "test": {
+    "split": "test",
+    "examples": 1052,
+    "exact_matches": 142,
+    "exact_match_accuracy": 0.13498098859315588,
+    "target_category_counts": {
+      "allocation": 804,
+      "disagreement": 142,
+      "no_agreement": 96,
+      "disconnect": 10
+    },
+    "baseline_target_category": "disagreement",
+    "category_accuracy": 0.13498098859315588,
+    "correct_exact_matches_by_category": {
+      "disagreement": 142
+    },
+    "category_correct": 142
+  }
+}

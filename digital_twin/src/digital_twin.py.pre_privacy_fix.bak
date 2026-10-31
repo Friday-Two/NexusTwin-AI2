@@ -1,0 +1,303 @@
+import json
+import re
+from pathlib import Path
+from datetime import datetime, timezone
+
+
+def parse_request(text, base_profile):
+    """Parse request fields without weakening profile hard constraints."""
+    p = dict(base_profile)
+    p["privacy"] = dict(base_profile.get("privacy", {}))
+    p["preferences"] = dict(base_profile.get("preferences", {}))
+
+    lower = text.lower()
+
+    nights = re.search(r"\b(\d+)\s*nights?\b", lower)
+    if nights:
+        p["nights"] = int(nights.group(1))
+
+    budget = re.search(
+        r"(?:under|below|maximum|max(?:imum)?(?: total)?(?: price)?"
+        r"\s*(?:of)?|budget(?: of)?)\s*"
+        r"(?:rs\.?|₹|inr)?\s*([\d,]+)",
+        lower
+    )
+    if budget:
+        requested_budget = int(budget.group(1).replace(",", ""))
+        profile_budget = int(base_profile["max_total_price"])
+        # A request can tighten, but never relax, the configured budget.
+        p["max_total_price"] = min(requested_budget, profile_budget)
+
+    # Hard verification policy can only be enabled or preserved, never relaxed.
+    p["require_verified"] = bool(
+        base_profile.get("require_verified", True)
+    )
+
+    # Privacy denial in the profile is authoritative.
+    profile_allows_phone = bool(
+        base_profile.get("privacy", {}).get("share_phone", False)
+    )
+    explicitly_denies_phone = (
+        "do not share my phone" in lower
+        or "don't share my phone" in lower
+        or "never share my phone" in lower
+    )
+    p["privacy"]["share_phone"] = (
+        profile_allows_phone and not explicitly_denies_phone
+    )
+
+    if "central chennai" in lower:
+        p["preferred_area"] = "central Chennai"
+
+    return p
+
+
+class ServiceAgent:
+    def __init__(self, name, hotel, area, initial_price,
+                 minimum_price, verified=True):
+        self.name = name
+        self.hotel = hotel
+        self.area = area
+        self.initial_price = initial_price
+        self.minimum_price = minimum_price
+        self.verified = verified
+
+    def offer(self, round_number):
+        # Deterministic concessions: reproducible across runs.
+        concession = (round_number - 1) * 300
+        price = max(self.minimum_price, self.initial_price - concession)
+        return {
+            "agent": self.name,
+            "hotel": self.hotel,
+            "area": self.area,
+            "total_price": price,
+            "verified": self.verified,
+            "round": round_number
+        }
+
+
+def check_constraints(offer, profile):
+    reasons = []
+
+    if offer["total_price"] > profile["max_total_price"]:
+        reasons.append("price_exceeds_budget")
+
+    if profile.get("require_verified", True) and not offer["verified"]:
+        reasons.append("hotel_not_verified")
+
+    if offer["area"].lower() != profile["preferred_area"].lower():
+        reasons.append("area_mismatch")
+
+    return len(reasons) == 0, reasons
+
+
+def public_offer(offer, profile):
+    """Only allow explicitly approved fields into agent-facing messages."""
+    allowed = {
+        "agent", "hotel", "area", "total_price", "verified", "round"
+    }
+    result = {k: v for k, v in offer.items() if k in allowed}
+
+    # Deliberately never include phone numbers or other private profile data.
+    assert "phone" not in result
+    assert "phone_number" not in result
+    return result
+
+
+def negotiate(request_text, base_profile, max_rounds=3):
+    if max_rounds < 1:
+        raise ValueError("max_rounds must be at least 1")
+
+    profile = parse_request(request_text, base_profile)
+
+    agents = [
+        ServiceAgent(
+            "Agent_A", "Central Inn", "central Chennai",
+            initial_price=6500, minimum_price=5600, verified=True
+        ),
+        ServiceAgent(
+            "Agent_B", "Metro Stay", "central Chennai",
+            initial_price=6200, minimum_price=5000, verified=True
+        )
+    ]
+
+    trace = {
+        "request": request_text,
+        "profile": profile,
+        "max_rounds": max_rounds,
+        "rounds": [],
+        "status": "failed",
+        "accepted_offer": None,
+        "failure_reason": None
+    }
+
+    for round_number in range(1, max_rounds + 1):
+        round_record = {
+            "round": round_number,
+            "offers": [],
+            "decisions": []
+        }
+
+        eligible = []
+
+        for agent in agents:
+            offer = public_offer(agent.offer(round_number), profile)
+            valid, reasons = check_constraints(offer, profile)
+
+            round_record["offers"].append(offer)
+            round_record["decisions"].append({
+                "agent": agent.name,
+                "eligible": valid,
+                "rejection_reasons": reasons
+            })
+
+            if valid:
+                eligible.append(offer)
+
+        trace["rounds"].append(round_record)
+
+        if eligible:
+            # Lowest valid total price wins; name breaks ties deterministically.
+            accepted = min(
+                eligible,
+                key=lambda x: (x["total_price"], x["hotel"])
+            )
+            trace["status"] = "agreement"
+            trace["accepted_offer"] = accepted
+            break
+
+    if trace["status"] != "agreement":
+        trace["failure_reason"] = (
+            "No offer satisfied all hard constraints within "
+            f"{max_rounds} rounds."
+        )
+
+    # Record explicit privacy enforcement result.
+    trace["privacy_audit"] = {
+        "phone_sharing_allowed": profile["privacy"].get(
+            "share_phone", False
+        ),
+        "phone_disclosed_to_agents": False,
+        "private_fields_in_outgoing_offers": False
+    }
+
+    return trace
+
+
+def save_trace(trace, path):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(trace, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
+
+# PHASE_5_POLICY_LAYER_V1
+import re as _policy_re
+
+
+def check_constraints(offer, profile):
+    """Return (allowed, rejection_reasons) for a service offer."""
+    reasons = []
+
+    try:
+        price = float(offer.get("total_price", -1))
+        budget = float(profile["max_total_price"])
+        if price < 0 or price > budget:
+            reasons.append("price_exceeds_budget_or_invalid")
+    except (TypeError, ValueError, KeyError):
+        reasons.append("missing_or_invalid_price")
+
+    if profile.get("require_verified", True):
+        if offer.get("verified") is not True:
+            reasons.append("hotel_not_verified")
+
+    required_area = profile.get("preferred_area")
+    if required_area and str(offer.get("area", "")).strip().casefold() != \
+            str(required_area).strip().casefold():
+        reasons.append("area_mismatch")
+
+    if not offer.get("hotel") or not offer.get("agent"):
+        reasons.append("missing_hotel_or_agent")
+
+    return not reasons, reasons
+
+
+def sanitize_outgoing_message(message, profile):
+    """
+    Centralized privacy filter. Removes private contact fields and redacts
+    phone-like strings when profile privacy disallows phone sharing.
+    """
+    share_phone = profile.get("privacy", {}).get("share_phone", False)
+
+    def clean(value):
+        if isinstance(value, dict):
+            result = {}
+            for key, item in value.items():
+                normalized = str(key).casefold().replace("-", "_")
+                private_key = any(
+                    term in normalized
+                    for term in (
+                        "phone", "mobile", "telephone", "contact_number"
+                    )
+                )
+                if not share_phone and private_key:
+                    continue
+                result[key] = clean(item)
+            return result
+
+        if isinstance(value, list):
+            return [clean(item) for item in value]
+
+        if isinstance(value, str) and not share_phone:
+            return _policy_re.sub(
+                r"(?<!\w)(?:\+?\d[\d\s().-]{7,}\d)(?!\w)",
+                "[REDACTED_PHONE]",
+                value
+            )
+
+        return value
+
+    return clean(message)
+
+
+def validate_final_agreement(offer, profile):
+    """Re-check the final offer independently before accepting it."""
+    if not isinstance(offer, dict):
+        return False, ["agreement_is_not_an_object"]
+    return check_constraints(offer, profile)
+
+
+# Wrap the original negotiation function so a final agreement is revalidated.
+_pre_phase5_negotiate = negotiate
+
+
+def negotiate(request_text, base_profile, max_rounds=3):
+    trace = _pre_phase5_negotiate(
+        request_text, base_profile, max_rounds=max_rounds
+    )
+
+    accepted = trace.get("accepted_offer")
+
+    if trace.get("status") == "agreement":
+        valid, reasons = validate_final_agreement(
+            accepted, trace["profile"]
+        )
+        trace["final_agreement_validation"] = {
+            "passed": valid,
+            "rejection_reasons": reasons
+        }
+
+        if not valid:
+            trace["status"] = "failed"
+            trace["accepted_offer"] = None
+            trace["failure_reason"] = (
+                "Final agreement failed hard-constraint validation."
+            )
+    else:
+        trace["final_agreement_validation"] = {
+            "passed": False,
+            "rejection_reasons": ["no_agreement_reached"]
+        }
+
+    return trace

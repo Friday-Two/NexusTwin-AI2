@@ -1,0 +1,46 @@
+{
+  "run_id": "phase7-demo-001",
+  "timestamp_utc": "2026-10-26T14:12:39.113859+00:00",
+  "request": "Book a verified hotel in central Chennai for 2 nights under Rs. 6000. Do NOT share my phone.",
+  "steps": {
+    "negotiation": {
+      "status": "agreement",
+      "rounds": 2,
+      "privacy_audit": {
+        "phone_sharing_allowed": false,
+        "phone_disclosed_to_agents": false,
+        "private_fields_in_outgoing_offers": false
+      }
+    },
+    "execution": {
+      "booking_id": "phase7-demo-001",
+      "database_path": "/kaggle/working/digital_twin/verification/services.db",
+      "status": "persisted",
+      "hotel": "Metro Stay",
+      "total_price": 5900,
+      "nights": 2
+    },
+    "verification": {
+      "verified": true,
+      "booking_id": "phase7-demo-001",
+      "hotel": "Metro Stay",
+      "total_price": 5900,
+      "nights": 2,
+      "verified_hotel": true,
+      "errors": []
+    },
+    "privacy_policy": {
+      "passed": true,
+      "audit": {
+        "phone_sharing_allowed": false,
+        "phone_disclosed_to_agents": false,
+        "private_fields_in_outgoing_offers": false
+      }
+    },
+    "final_agreement_validation": {
+      "passed": true,
+      "rejection_reasons": []
+    }
+  },
+  "overall_status": "passed"
+}

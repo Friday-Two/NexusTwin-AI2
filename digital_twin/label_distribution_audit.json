@@ -1,0 +1,239 @@
+{
+  "train": {
+    "raw_records": 10095,
+    "parsed_records": 10095,
+    "parse_errors": 0,
+    "output_types": {
+      "allocation": 7882,
+      "disagreement": 1179,
+      "other": 1034
+    },
+    "most_common_output_tokens": [
+      [
+        "<disagree>",
+        7074
+      ],
+      [
+        "item0=0",
+        6774
+      ],
+      [
+        "item1=0",
+        6700
+      ],
+      [
+        "item2=0",
+        6696
+      ],
+      [
+        "<no_agreement>",
+        5868
+      ],
+      [
+        "item1=1",
+        4944
+      ],
+      [
+        "item0=1",
+        4882
+      ],
+      [
+        "item2=1",
+        4828
+      ],
+      [
+        "item2=2",
+        2626
+      ],
+      [
+        "item1=2",
+        2466
+      ],
+      [
+        "item0=2",
+        2454
+      ],
+      [
+        "item0=3",
+        1270
+      ],
+      [
+        "item1=3",
+        1250
+      ],
+      [
+        "item2=3",
+        1244
+      ],
+      [
+        "item1=4",
+        404
+      ]
+    ],
+    "input_field_token_counts": {
+      "6": 10095
+    },
+    "empty_dialogues": 0,
+    "mean_dialogue_characters": 257.09,
+    "allocation_format_errors": 0,
+    "parse_error_line_examples": []
+  },
+  "val": {
+    "raw_records": 1087,
+    "parsed_records": 1087,
+    "parse_errors": 0,
+    "output_types": {
+      "disagreement": 129,
+      "allocation": 844,
+      "other": 114
+    },
+    "most_common_output_tokens": [
+      [
+        "<disagree>",
+        774
+      ],
+      [
+        "item2=0",
+        734
+      ],
+      [
+        "item1=0",
+        708
+      ],
+      [
+        "item0=0",
+        706
+      ],
+      [
+        "<no_agreement>",
+        648
+      ],
+      [
+        "item2=1",
+        540
+      ],
+      [
+        "item1=1",
+        536
+      ],
+      [
+        "item0=1",
+        482
+      ],
+      [
+        "item0=2",
+        324
+      ],
+      [
+        "item2=2",
+        288
+      ],
+      [
+        "item1=2",
+        228
+      ],
+      [
+        "item1=3",
+        178
+      ],
+      [
+        "item0=3",
+        138
+      ],
+      [
+        "item2=3",
+        100
+      ],
+      [
+        "item1=4",
+        38
+      ]
+    ],
+    "input_field_token_counts": {
+      "6": 1087
+    },
+    "empty_dialogues": 0,
+    "mean_dialogue_characters": 259.5,
+    "allocation_format_errors": 0,
+    "parse_error_line_examples": []
+  },
+  "test": {
+    "raw_records": 1052,
+    "parsed_records": 1052,
+    "parse_errors": 0,
+    "output_types": {
+      "allocation": 804,
+      "disagreement": 142,
+      "other": 106
+    },
+    "most_common_output_tokens": [
+      [
+        "<disagree>",
+        852
+      ],
+      [
+        "item1=0",
+        672
+      ],
+      [
+        "item2=0",
+        654
+      ],
+      [
+        "item0=0",
+        654
+      ],
+      [
+        "<no_agreement>",
+        576
+      ],
+      [
+        "item0=1",
+        556
+      ],
+      [
+        "item2=1",
+        530
+      ],
+      [
+        "item1=1",
+        514
+      ],
+      [
+        "item2=2",
+        290
+      ],
+      [
+        "item1=2",
+        252
+      ],
+      [
+        "item0=2",
+        236
+      ],
+      [
+        "item0=3",
+        138
+      ],
+      [
+        "item1=3",
+        122
+      ],
+      [
+        "item2=3",
+        98
+      ],
+      [
+        "<disconnect>",
+        60
+      ]
+    ],
+    "input_field_token_counts": {
+      "6": 1052
+    },
+    "empty_dialogues": 0,
+    "mean_dialogue_characters": 251.1,
+    "allocation_format_errors": 0,
+    "parse_error_line_examples": []
+  }
+}

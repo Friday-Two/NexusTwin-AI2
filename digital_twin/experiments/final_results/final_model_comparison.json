@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-26T13:53:12.648114+00:00",
+  "test_examples": 1052,
+  "evaluation_split": "held-out test",
+  "models": {
+    "flan_t5": {
+      "accuracy": 0.8450570342205324,
+      "macro_f1": 0.45256496676119196,
+      "balanced_accuracy": 0.47823383084577115
+    },
+    "tfidf_logistic_regression": {
+      "accuracy": 0.7832699619771863,
+      "macro_f1": 0.590045398168284,
+      "balanced_accuracy": 0.6215519015836312
+    },
+    "confidence_routed_hybrid_threshold_0_55": {
+      "accuracy": 0.846958174904943,
+      "macro_f1": 0.56812452594514,
+      "balanced_accuracy": 0.5795921361502347
+    }
+  },
+  "flan_t5_generation": {
+    "exact_match_accuracy": 0.14923954372623574,
+    "token_micro_f1": 0.6387108262108262
+  },
+  "limitations": [
+    "The confidence threshold was selected using validation data and frozen before test evaluation.",
+    "Hybrid metrics measure category classification, not generated allocation exact match.",
+    "The hybrid did not correctly classify any disconnect examples in the test report.",
+    "Hotel negotiation and booking execution are simulated; they are not connected to a real booking service."
+  ],
+  "source_files": [
+    "experiments/flan_t5_small_negotiation/test_metrics_corrected.json",
+    "experiments/phase3_final_test_evaluation/test_metrics.json",
+    "experiments/phase3_final_test_evaluation/test_predictions.csv"
+  ]
+}

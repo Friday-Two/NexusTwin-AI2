@@ -1,0 +1,8 @@
+{
+  "booking_id": "phase6-booking-001",
+  "database_path": "/kaggle/working/digital_twin/verification/services.db",
+  "status": "persisted",
+  "hotel": "Metro Stay",
+  "total_price": 5900,
+  "nights": 2
+}

@@ -1,0 +1,13 @@
+{
+  "city": "Chennai",
+  "preferred_area": "central Chennai",
+  "nights": 2,
+  "max_total_price": 6000,
+  "require_verified": true,
+  "privacy": {
+    "share_phone": false
+  },
+  "preferences": {
+    "prefer_lower_price": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "verified": false,
+  "booking_id": "phase6-booking-001",
+  "hotel": "Metro Stay",
+  "total_price": 9900,
+  "nights": 2,
+  "verified_hotel": true,
+  "errors": [
+    "total_price_mismatch: expected=5900, stored=9900",
+    "agreement_snapshot_total_price_mismatch",
+    "persisted_price_exceeds_budget"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "request": "Book a verified hotel in central Chennai for 2 nights under Rs. 6000. Do NOT share my phone.",
+  "profile": {
+    "city": "Chennai",
+    "preferred_area": "central Chennai",
+    "nights": 2,
+    "max_total_price": 6000,
+    "require_verified": true,
+    "privacy": {
+      "share_phone": false
+    },
+    "preferences": {
+      "prefer_lower_price": true
+    }
+  },
+  "max_rounds": 3,
+  "rounds": [
+    {
+      "round": 1,
+      "offers": [
+        {
+          "agent": "Agent_A",
+          "hotel": "Central Inn",
+          "area": "central Chennai",
+          "total_price": 6500,
+          "verified": true,
+          "round": 1
+        },
+        {
+          "agent": "Agent_B",
+          "hotel": "Metro Stay",
+          "area": "central Chennai",
+          "total_price": 6200,
+          "verified": true,
+          "round": 1
+        }
+      ],
+      "decisions": [
+        {
+          "agent": "Agent_A",
+          "eligible": false,
+          "rejection_reasons": [
+            "price_exceeds_budget"
+          ]
+        },
+        {
+          "agent": "Agent_B",
+          "eligible": false,
+          "rejection_reasons": [
+            "price_exceeds_budget"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "offers": [
+        {
+          "agent": "Agent_A",
+          "hotel": "Central Inn",
+          "area": "central Chennai",
+          "total_price": 6200,
+          "verified": true,
+          "round": 2
+        },
+        {
+          "agent": "Agent_B",
+          "hotel": "Metro Stay",
+          "area": "central Chennai",
+          "total_price": 5900,
+          "verified": true,
+          "round": 2
+        }
+      ],
+      "decisions": [
+        {
+          "agent": "Agent_A",
+          "eligible": false,
+          "rejection_reasons": [
+            "price_exceeds_budget"
+          ]
+        },
+        {
+          "agent": "Agent_B",
+          "eligible": true,
+          "rejection_reasons": []
+        }
+      ]
+    }
+  ],
+  "status": "agreement",
+  "accepted_offer": {
+    "agent": "Agent_B",
+    "hotel": "Metro Stay",
+    "area": "central Chennai",
+    "total_price": 5900,
+    "verified": true,
+    "round": 2
+  },
+  "failure_reason": null,
+  "privacy_audit": {
+    "phone_sharing_allowed": false,
+    "phone_disclosed_to_agents": false,
+    "private_fields_in_outgoing_offers": false
+  }
+}

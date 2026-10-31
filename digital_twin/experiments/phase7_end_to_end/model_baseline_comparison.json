@@ -1,0 +1,17 @@
+{
+  "evaluation_split": "test",
+  "test_examples": 1052,
+  "model": "google/flan-t5-small",
+  "baseline": "majority-target baseline",
+  "model_exact_match_accuracy": 0.14923954372623574,
+  "baseline_exact_match_accuracy": 0.13498098859315588,
+  "exact_match_difference_percentage_points": 1.4258555133079858,
+  "model_category_accuracy": 0.8450570342205324,
+  "baseline_category_accuracy": 0.13498098859315588,
+  "category_accuracy_difference_percentage_points": 71.00760456273764,
+  "model_token_micro_precision": 0.6067320703653586,
+  "model_token_micro_recall": 0.6742481203007519,
+  "model_token_micro_f1": 0.6387108262108262,
+  "baseline_token_micro_f1": null,
+  "note": "Baseline category accuracy is derived from its saved correct count divided by test examples. Token micro-F1 is not available for the baseline and is therefore not compared."
+}

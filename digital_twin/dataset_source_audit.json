@@ -1,0 +1,27 @@
+{
+  "source": "facebookresearch/end-to-end-negotiator",
+  "source_url": "https://raw.githubusercontent.com/facebookresearch/end-to-end-negotiator/master/src/data/negotiate",
+  "files": {
+    "train.txt": {
+      "path": "/kaggle/working/digital_twin/raw/train.txt",
+      "bytes": 4325861,
+      "nonempty_lines": 10095,
+      "sha256": "aa278f06765463a5767055e1a544d922b39a9bb78f586f85513bf99f74aa2300",
+      "first_line_preview": "<input> 1 4 4 1 1 2 </input> <dialogue> THEM: i would like 4 hats and you can have the rest . <eos> YOU: deal <eos> THEM: <selection> </dialogue> <output> item0=1 item1=0 item2=1 item0=0 item1=4 item2=0 </output> <partner_input> 1 0 4 2 1 2 </partner_input>"
+    },
+    "val.txt": {
+      "path": "/kaggle/working/digital_twin/raw/val.txt",
+      "bytes": 468508,
+      "nonempty_lines": 1087,
+      "sha256": "5ad7df00b8bc4b1fff565cb4dc38b23afc7874c496b0ed2e1c58c232326ff996",
+      "first_line_preview": "<input> 1 6 3 0 2 2 </input> <dialogue> YOU: you can have all the hats if i get the book and basketballs . <eos> THEM: <selection> </dialogue> <output> <disagree> <disagree> <disagree> <disagree> <disagree> <disagree> </output> <partner_input> 1 2 3 2 2 1 </partner_input>"
+    },
+    "test.txt": {
+      "path": "/kaggle/working/digital_twin/raw/test.txt",
+      "bytes": 444703,
+      "nonempty_lines": 1052,
+      "sha256": "37be3150bf656195b61a7547b45cf307acce929f2a8140036890a561c3597c83",
+      "first_line_preview": "<input> 2 2 3 2 1 0 </input> <dialogue> THEM: i need that ball so bad ! what do you want ? <eos> YOU: i mean i'll take the rest <eos> THEM: could i also have one hat maybe ? pretty please ? <eos> YOU: you drive a hard bargain here , ball and a book ? <eos> THEM: if that's the offer , then you just take the book because they have no value for me . <eos> YOU: <selection> </dialogue> <output> item0=2 item1=3 item2=0 item0=0 item1=0 item2=1 </output> <partner_input> 2 0 3 1 1 7 </partner_input>"
+    }
+  }
+}

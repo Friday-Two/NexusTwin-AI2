@@ -1,0 +1,10 @@
+{
+  "representation_version": "plain_text_outcome_labels_v1",
+  "seed": 42,
+  "max_input_length": 512,
+  "max_target_length": 96,
+  "train_examples": 10095,
+  "validation_examples": 1087,
+  "test_examples": 1052,
+  "original_splits_preserved": true
+}

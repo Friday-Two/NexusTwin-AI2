@@ -1,0 +1,40 @@
+{
+  "phase": 1,
+  "status": "dataset_and_environment_audited",
+  "seed": 42,
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "pytorch": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu": "Tesla T4",
+  "dataset_files": {
+    "train.txt": {
+      "bytes": 4325861,
+      "nonempty_lines": 10095,
+      "sha256": "aa278f06765463a5767055e1a544d922b39a9bb78f586f85513bf99f74aa2300"
+    },
+    "val.txt": {
+      "bytes": 468508,
+      "nonempty_lines": 1087,
+      "sha256": "5ad7df00b8bc4b1fff565cb4dc38b23afc7874c496b0ed2e1c58c232326ff996"
+    },
+    "test.txt": {
+      "bytes": 444703,
+      "nonempty_lines": 1052,
+      "sha256": "37be3150bf656195b61a7547b45cf307acce929f2a8140036890a561c3597c83"
+    }
+  },
+  "model_metadata_check": {
+    "model_id": "google/flan-t5-small",
+    "metadata_accessible": true,
+    "model_type": "t5",
+    "encoder_decoder": true,
+    "vocab_size": 32128
+  },
+  "previous_audit_files": {
+    "network_audit.json": true,
+    "dataset_source_audit.json": true,
+    "structural_audit.json": true,
+    "label_distribution_audit.json": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "validation_best_threshold": {
+    "threshold": 0.55,
+    "examples_routed_to_classifier": 851.0,
+    "accuracy": 0.827966881324747,
+    "macro_f1": 0.6483687967383895,
+    "balanced_accuracy": 0.6224047948532684
+  },
+  "selection_warning": "Threshold selected on validation data; treat as exploratory and evaluate a frozen strategy on the held-out test set."
+}

@@ -1,0 +1,94 @@
+{
+  "split": "test",
+  "examples": 1052,
+  "fixed_confidence_threshold": 0.55,
+  "examples_routed_to_classifier": 781,
+  "flan_t5": {
+    "accuracy": 0.8450570342205324,
+    "macro_f1": 0.45256496676119196,
+    "balanced_accuracy": 0.47823383084577115
+  },
+  "classifier": {
+    "accuracy": 0.7832699619771863,
+    "macro_f1": 0.590045398168284,
+    "balanced_accuracy": 0.6215519015836312
+  },
+  "confidence_routed_hybrid": {
+    "accuracy": 0.846958174904943,
+    "macro_f1": 0.56812452594514,
+    "balanced_accuracy": 0.5795921361502347
+  },
+  "flan_t5_saved_exact_match_accuracy": 0.14923954372623574,
+  "hybrid_category_classification_report": {
+    "allocation": {
+      "precision": 0.9042944785276074,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9104385423100679,
+      "support": 804.0
+    },
+    "disagreement": {
+      "precision": 0.48,
+      "recall": 0.4225352112676056,
+      "f1-score": 0.449438202247191,
+      "support": 142.0
+    },
+    "disconnect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "no_agreement": {
+      "precision": 0.8545454545454545,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.912621359223301,
+      "support": 96.0
+    },
+    "accuracy": 0.846958174904943,
+    "macro avg": {
+      "precision": 0.5597099832682655,
+      "recall": 0.5795921361502347,
+      "f1-score": 0.56812452594514,
+      "support": 1052.0
+    },
+    "weighted avg": {
+      "precision": 0.8338870003541444,
+      "recall": 0.846958174904943,
+      "f1-score": 0.8397570943173314,
+      "support": 1052.0
+    }
+  },
+  "hybrid_confusion_matrix": [
+    [
+      737,
+      58,
+      2,
+      7
+    ],
+    [
+      73,
+      60,
+      0,
+      9
+    ],
+    [
+      5,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      94
+    ]
+  ],
+  "class_order": [
+    "allocation",
+    "disagreement",
+    "disconnect",
+    "no_agreement"
+  ],
+  "caveat": "Hybrid metrics measure category classification only, not generated allocation exact match. Threshold was fixed using validation."
+}

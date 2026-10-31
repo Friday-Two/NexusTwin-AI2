@@ -1,0 +1,43 @@
+{
+  "model": "google/flan-t5-small",
+  "representation_version": "plain_text_outcome_labels_v1",
+  "checkpoint": "/kaggle/working/digital_twin/models/flan_t5_small_negotiation/corrected_fp32",
+  "split": "validation",
+  "examples": 1087,
+  "exact_matches": 184,
+  "exact_match_accuracy": 0.16927322907083717,
+  "category_correct": 939,
+  "category_accuracy": 0.8638454461821528,
+  "true_category_counts": {
+    "disagreement": 129,
+    "allocation": 844,
+    "no_agreement": 108,
+    "disconnect": 6
+  },
+  "predicted_category_counts": {
+    "allocation": 964,
+    "no_agreement": 122,
+    "disagreement": 1
+  },
+  "category_confusion": {
+    "disagreement -> allocation": 118,
+    "allocation -> allocation": 836,
+    "no_agreement -> no_agreement": 103,
+    "no_agreement -> allocation": 4,
+    "allocation -> no_agreement": 8,
+    "disagreement -> no_agreement": 11,
+    "no_agreement -> disagreement": 1,
+    "disconnect -> allocation": 6
+  },
+  "token_micro_precision": 0.6538971807628524,
+  "token_micro_recall": 0.7104504504504504,
+  "token_micro_f1": 0.6810017271157167,
+  "majority_target": "OUTCOME: DISAGREEMENT",
+  "majority_target_count_in_train": 1179,
+  "majority_target_validation_accuracy": 0.11867525298988041,
+  "generation": {
+    "max_new_tokens": 64,
+    "num_beams": 1,
+    "do_sample": false
+  }
+}

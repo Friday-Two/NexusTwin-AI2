@@ -1,0 +1,81 @@
+{
+  "experiment": "phase2_validation_baseline",
+  "checkpoint": "/kaggle/working/digital_twin/models/flan_t5_small_negotiation/corrected_fp32",
+  "split": "validation",
+  "examples": 1087,
+  "category_accuracy": 0.8638454461821528,
+  "macro_f1": 0.4551077337437476,
+  "balanced_accuracy": 0.48605625767948046,
+  "exact_match_accuracy": 0.16927322907083717,
+  "classification_report": {
+    "allocation": {
+      "precision": 0.8672199170124482,
+      "recall": 0.990521327014218,
+      "f1-score": 0.9247787610619469,
+      "support": 844.0
+    },
+    "disagreement": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 129.0
+    },
+    "no_agreement": {
+      "precision": 0.8442622950819673,
+      "recall": 0.9537037037037037,
+      "f1-score": 0.8956521739130435,
+      "support": 108.0
+    },
+    "disconnect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "accuracy": 0.8638454461821528,
+    "macro avg": {
+      "precision": 0.4278705530236039,
+      "recall": 0.48605625767948046,
+      "f1-score": 0.4551077337437476,
+      "support": 1087.0
+    },
+    "weighted avg": {
+      "precision": 0.7572345334198333,
+      "recall": 0.8638454461821528,
+      "f1-score": 0.807031931112136,
+      "support": 1087.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "allocation",
+    "disagreement",
+    "no_agreement",
+    "disconnect"
+  ],
+  "confusion_matrix": [
+    [
+      836,
+      0,
+      8,
+      0
+    ],
+    [
+      118,
+      0,
+      11,
+      0
+    ],
+    [
+      4,
+      1,
+      103,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "model": "google/flan-t5-small",
+  "representation_version": "plain_text_outcome_labels_v1",
+  "checkpoint": "/kaggle/working/digital_twin/models/flan_t5_small_negotiation/corrected_fp32",
+  "split": "test",
+  "examples": 1052,
+  "exact_matches": 157,
+  "exact_match_accuracy": 0.14923954372623574,
+  "category_correct": 889,
+  "category_accuracy": 0.8450570342205324,
+  "token_micro_precision": 0.6067320703653586,
+  "token_micro_recall": 0.6742481203007519,
+  "token_micro_f1": 0.6387108262108262,
+  "true_category_counts": {
+    "allocation": 804,
+    "disagreement": 142,
+    "no_agreement": 96,
+    "disconnect": 10
+  },
+  "predicted_category_counts": {
+    "allocation": 952,
+    "no_agreement": 100
+  },
+  "category_confusion": {
+    "allocation -> allocation": 801,
+    "disagreement -> allocation": 133,
+    "no_agreement -> no_agreement": 88,
+    "disagreement -> no_agreement": 9,
+    "disconnect -> allocation": 10,
+    "no_agreement -> allocation": 8,
+    "allocation -> no_agreement": 3
+  },
+  "per_true_category": {
+    "allocation": {
+      "examples": 804,
+      "correct_category": 801,
+      "exact_matches": 69,
+      "category_accuracy": 0.996268656716418,
+      "exact_match_accuracy": 0.08582089552238806
+    },
+    "disagreement": {
+      "examples": 142,
+      "correct_category": 0,
+      "exact_matches": 0,
+      "category_accuracy": 0.0,
+      "exact_match_accuracy": 0.0
+    },
+    "no_agreement": {
+      "examples": 96,
+      "correct_category": 88,
+      "exact_matches": 88,
+      "category_accuracy": 0.9166666666666666,
+      "exact_match_accuracy": 0.9166666666666666
+    },
+    "disconnect": {
+      "examples": 10,
+      "correct_category": 0,
+      "exact_matches": 0,
+      "category_accuracy": 0.0,
+      "exact_match_accuracy": 0.0
+    }
+  },
+  "majority_target_baseline": {
+    "target": "OUTCOME: DISAGREEMENT",
+    "training_count": 1179,
+    "test_correct": 142,
+    "test_exact_match_accuracy": 0.13498098859315588
+  },
+  "majority_category_baseline": {
+    "category": "allocation",
+    "training_count": 7882,
+    "test_correct": 804,
+    "test_category_accuracy": 0.7642585551330798
+  },
+  "generation": {
+    "max_new_tokens": 64,
+    "num_beams": 1,
+    "do_sample": false
+  }
+}

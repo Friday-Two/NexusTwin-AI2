@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-10-26T12:24:19.426473+00:00",
+  "project_root": "/kaggle/working/digital_twin",
+  "artifacts": [
+    {
+      "path": "src/main.py",
+      "size_bytes": 4993,
+      "sha256": "4e76717752ce311e020f53fec7d317208209bbce384728c3febb520acdd64c9e"
+    },
+    {
+      "path": "src/digital_twin.py",
+      "size_bytes": 9232,
+      "sha256": "aa9d988e55a035354a15e9b8f2efdac7ddb46fbe8bd2b1e6af8abe68c6c700f9"
+    },
+    {
+      "path": "src/execution_verifier.py",
+      "size_bytes": 5274,
+      "sha256": "a5a3ec62946c5d5a8b1939fe39ad8d377fc0ec676153864b9d61fbc300c0ce86"
+    },
+    {
+      "path": "profiles/digital_twin_profile.json",
+      "size_bytes": 232,
+      "sha256": "043326fff374cb2fd0478febe89a255f947c25cfb684819f43ab093bf6d5218c"
+    },
+    {
+      "path": "profiles/sample_request.txt",
+      "size_bytes": 92,
+      "sha256": "29c460823b571dee42b6782762dd7d6f08e23dfefba064959d9279b05730a1d4"
+    },
+    {
+      "path": "experiments/flan_t5_small_negotiation/test_metrics_corrected.json",
+      "size_bytes": 2235,
+      "sha256": "66449a83861ac898b89abb17f339823715786445848ce399f89634881d53351a"
+    },
+    {
+      "path": "experiments/flan_t5_small_negotiation/test_predictions_corrected.csv",
+      "size_bytes": 631930,
+      "sha256": "2e81af25d74c6691a1ffa80bf53ca4d77c311ea8d3bce055f3d442d18630c378"
+    },
+    {
+      "path": "experiments/majority_target_baseline/metrics.json",
+      "size_bytes": 1215,
+      "sha256": "349dc5109144f9640aa0205700d0490502c8f43c05e96db975a2c6aa23b00e08"
+    },
+    {
+      "path": "models/flan_t5_small_negotiation/corrected_fp32/config.json",
+      "size_bytes": 1563,
+      "sha256": "41862ff72e6bdfafe7e53fd0fd1d64f949f74d7efd15ca175c740436f54b731b"
+    },
+    {
+      "path": "models/flan_t5_small_negotiation/corrected_fp32/model.safetensors",
+      "size_bytes": 307867048,
+      "sha256": "2c973ff78656a9b77fd7d7e020cafca0cb382d1645dbc5e20c795bb6aa455c41"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/run_summary.json",
+      "size_bytes": 1260,
+      "sha256": "f28bf77547c9e6b1f421ddc6ee9cf7667e6fdbde65ffc7a958436a2347d5eff0"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/verification_report.json",
+      "size_bytes": 162,
+      "sha256": "c25eb5c20b7b8a8e5e0b68bc44f5648e788a0f73176579190dbe0f471013ec18"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/failure_path_trace.json",
+      "size_bytes": 3308,
+      "sha256": "c2f64ba8a7582f0c8b757d8966c36110134029a09246ce25304fd71d531c3181"
+    },
+    {
+      "path": "experiments/phase7_end_to_end/model_baseline_comparison.json",
+      "size_bytes": 852,
+      "sha256": "e6a321eacc314b4332f32a1a9568b02ba9cb17e7672ab99d8859b6ac8751e4a7"
+    }
+  ]
+}

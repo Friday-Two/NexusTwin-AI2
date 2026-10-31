@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "model_name": "google/flan-t5-small",
+  "transformers_version": "5.16.1",
+  "pytorch_version": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "train_examples": 10095,
+  "validation_examples": 1087,
+  "test_examples": 1052,
+  "model_parameters": 76961152,
+  "tokenizer_vocabulary": 32100,
+  "encoder_decoder": true
+}

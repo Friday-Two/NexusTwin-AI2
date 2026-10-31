@@ -1,0 +1,53 @@
+{
+  "split": "validation",
+  "examples": 1087,
+  "majority_category": "allocation",
+  "majority_category_accuracy": 0.7764489420423183,
+  "model_category_accuracy": 0.7709291628334867,
+  "model_exact_match_accuracy": 0.08095676172953081,
+  "true_category_counts": {
+    "disagreement": 129,
+    "allocation": 844,
+    "no_agreement": 108,
+    "disconnect": 6
+  },
+  "predicted_category_counts": {
+    "allocation": 972,
+    "other": 115
+  },
+  "per_true_category_exact_match": {
+    "disagreement": {
+      "examples": 129,
+      "exact_matches": 0,
+      "exact_match_accuracy": 0.0
+    },
+    "allocation": {
+      "examples": 844,
+      "exact_matches": 88,
+      "exact_match_accuracy": 0.10426540284360189
+    },
+    "no_agreement": {
+      "examples": 108,
+      "exact_matches": 0,
+      "exact_match_accuracy": 0.0
+    },
+    "disconnect": {
+      "examples": 6,
+      "exact_matches": 0,
+      "exact_match_accuracy": 0.0
+    }
+  },
+  "category_confusion": {
+    "disagreement -> allocation": 122,
+    "allocation -> allocation": 838,
+    "no_agreement -> other": 102,
+    "no_agreement -> allocation": 6,
+    "allocation -> other": 6,
+    "disagreement -> other": 7,
+    "disconnect -> allocation": 6
+  },
+  "output_structure": {
+    "allocation_with_6_assignments": 972,
+    "other_output": 115
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "source_csv": "/kaggle/working/digital_twin/experiments/flan_t5_small_negotiation/test_predictions_corrected.csv",
+  "examples": 1052,
+  "category_accuracy": 0.8450570342205324,
+  "macro_f1": 0.45256496676119196,
+  "balanced_accuracy": 0.47823383084577115,
+  "exact_matches_from_csv": 157,
+  "exact_match_accuracy_from_csv": 0.14923954372623574,
+  "labels": [
+    "allocation",
+    "disagreement",
+    "no_agreement",
+    "disconnect"
+  ],
+  "confusion_matrix": [
+    [
+      801,
+      0,
+      3,
+      0
+    ],
+    [
+      133,
+      0,
+      9,
+      0
+    ],
+    [
+      8,
+      0,
+      88,
+      0
+    ],
+    [
+      10,
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_class_metrics": {
+    "allocation": {
+      "precision": 0.8413865546218487,
+      "recall": 0.996268656716418,
+      "f1-score": 0.9123006833712984,
+      "support": 804.0
+    },
+    "disagreement": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 142.0
+    },
+    "no_agreement": {
+      "precision": 0.88,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8979591836734694,
+      "support": 96.0
+    },
+    "disconnect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "accuracy": 0.8450570342205324,
+    "macro avg": {
+      "precision": 0.4303466386554622,
+      "recall": 0.47823383084577115,
+      "f1-score": 0.45256496676119196,
+      "support": 1052.0
+    },
+    "weighted avg": {
+      "precision": 0.7233410550532,
+      "recall": 0.8450570342205324,
+      "f1-score": 0.7791766454973165,
+      "support": 1052.0
+    }
+  }
+}

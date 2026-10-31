@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-10-26T14:04:31.546308+00:00",
+  "test_type": "in_memory_negotiation_privacy_validation",
+  "source_sha256": "2956c6a964821330d823af53a72a8f0a33ea6428c3d77737159c337eaa304ec1",
+  "status": "passed",
+  "checks": {
+    "negotiation_reached_agreement": true,
+    "final_agreement_passes_constraints": true,
+    "phone_not_disclosed": true,
+    "no_private_fields_in_offers": true,
+    "offers_recorded": true
+  },
+  "negotiation_status": "agreement",
+  "round_count": 2,
+  "offer_count": 4,
+  "accepted_offer": {
+    "agent": "Agent_B",
+    "hotel": "Metro Stay",
+    "area": "central Chennai",
+    "total_price": 5900,
+    "verified": true,
+    "round": 2
+  },
+  "privacy_audit": {
+    "phone_sharing_allowed": false,
+    "phone_disclosed_to_agents": false,
+    "private_fields_in_outgoing_offers": false
+  },
+  "final_agreement_validation": {
+    "passed": true,
+    "rejection_reasons": []
+  },
+  "limitations": [
+    "This run does not execute or persist a booking.",
+    "It does not replace the earlier Phase 7 end-to-end evidence.",
+    "Privacy checks cover the recorded outgoing-offer path."
+  ]
+}

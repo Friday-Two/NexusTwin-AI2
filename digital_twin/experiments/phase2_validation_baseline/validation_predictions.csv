@@ -1,0 +1,1088 @@
+id,true_category,predicted_category,model_target,prediction,exact_match
+validation_00001,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=1 item1=0 item2=0,False
+validation_00002,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=3 item2=0,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00003,allocation,allocation,item0=1 item1=3 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00004,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00005,allocation,allocation,item0=3 item1=2 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00006,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00007,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00008,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00009,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=3,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,False
+validation_00010,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00011,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00012,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00013,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,item0=0 item1=2 item2=3 item0=1 item1=2 item2=0,False
+validation_00014,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00015,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=1 item2=1 item0=1 item1=2 item2=0,False
+validation_00016,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=1 item2=2,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00017,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=1,item0=1 item1=1 item2=2 item0=1 item1=0 item2=3,False
+validation_00018,allocation,allocation,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,item0=3 item1=1 item2=0 item0=3 item1=0 item2=0,False
+validation_00019,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=3,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00020,allocation,allocation,item0=1 item1=4 item2=0 item0=0 item1=0 item2=1,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00021,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00022,no_agreement,allocation,OUTCOME: NO_AGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00023,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00024,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00025,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00026,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=0 item2=4 item0=0 item1=1 item2=0,False
+validation_00027,allocation,allocation,item0=1 item1=1 item2=1 item0=0 item1=1 item2=1,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00028,allocation,allocation,item0=0 item1=1 item2=1 item0=1 item1=1 item2=1,item0=0 item1=2 item2=1 item0=1 item1=0 item2=2,False
+validation_00029,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_00030,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00031,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=1 item2=1,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00032,allocation,allocation,item0=2 item1=1 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=3 item2=0,False
+validation_00033,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00034,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00035,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00036,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00037,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,item0=0 item1=2 item2=1 item0=3 item1=0 item2=1,False
+validation_00038,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00039,allocation,no_agreement,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,OUTCOME: NO_AGREEMENT,False
+validation_00040,allocation,no_agreement,item0=1 item1=0 item2=0 item0=0 item1=2 item2=3,OUTCOME: NO_AGREEMENT,False
+validation_00041,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,True
+validation_00042,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=0 item1=4 item2=1 item0=0 item1=4 item2=0,False
+validation_00043,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=4,item0=1 item1=2 item2=0 item0=0 item1=2 item2=4,False
+validation_00044,allocation,allocation,item0=0 item1=1 item2=4 item0=1 item1=1 item2=0,item0=0 item1=1 item2=4 item0=1 item1=2 item2=0,False
+validation_00045,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00046,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=3 item1=0 item2=1,False
+validation_00047,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00048,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00049,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00050,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,False
+validation_00051,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00052,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=1 item2=0 item0=0 item1=0 item2=3,False
+validation_00053,allocation,allocation,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00054,allocation,allocation,item0=0 item1=1 item2=0 item0=4 item1=0 item2=1,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00055,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00056,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_00057,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00058,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00059,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=1 item2=1,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,False
+validation_00060,allocation,allocation,item0=2 item1=1 item2=1 item0=0 item1=1 item2=0,item0=2 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00061,allocation,allocation,item0=0 item1=2 item2=0 item0=4 item1=0 item2=1,item0=0 item1=2 item2=1 item0=4 item1=0 item2=1,False
+validation_00062,allocation,allocation,item0=4 item1=0 item2=1 item0=0 item1=2 item2=0,item0=4 item1=1 item2=0 item0=0 item1=2 item2=1,False
+validation_00063,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00064,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,False
+validation_00065,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00066,allocation,allocation,item0=0 item1=1 item2=0 item0=1 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00067,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_00068,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=2,False
+validation_00069,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=0 item1=0 item2=1,False
+validation_00070,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00071,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00072,allocation,allocation,item0=0 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,False
+validation_00073,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00074,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,True
+validation_00075,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00076,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00077,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,True
+validation_00078,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,True
+validation_00079,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00080,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00081,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00082,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00083,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00084,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,True
+validation_00085,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00086,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00087,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00088,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00089,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00090,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00091,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00092,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00093,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=3,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,False
+validation_00094,allocation,allocation,item0=3 item1=0 item2=3 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=3,False
+validation_00095,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00096,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00097,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00098,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00099,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_00100,allocation,allocation,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,True
+validation_00101,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=2,item0=4 item1=1 item2=2 item0=0 item1=0 item2=2,False
+validation_00102,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00103,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00104,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=1,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00105,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=1 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00106,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=2,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00107,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=1,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00108,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00109,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00110,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,True
+validation_00111,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00112,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,False
+validation_00113,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00114,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00115,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00116,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,False
+validation_00117,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00118,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00119,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=4 item2=1,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00120,allocation,allocation,item0=0 item1=4 item2=1 item0=1 item1=0 item2=0,item0=1 item1=4 item2=0 item0=0 item1=4 item2=1,False
+validation_00121,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00122,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00123,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00124,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=1 item0=2 item1=0 item2=2,False
+validation_00125,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00126,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00127,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=3,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,False
+validation_00128,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00129,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00130,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00131,allocation,allocation,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,True
+validation_00132,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=3,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00133,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=4,item0=1 item1=1 item2=0 item0=1 item1=1 item2=4,False
+validation_00134,allocation,allocation,item0=0 item1=1 item2=4 item0=1 item1=0 item2=0,item0=1 item1=1 item2=4 item0=1 item1=0 item2=0,False
+validation_00135,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=2,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,False
+validation_00136,allocation,allocation,item0=3 item1=0 item2=2 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=3,False
+validation_00137,allocation,allocation,item0=0 item1=4 item2=1 item0=1 item1=0 item2=0,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00138,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=4 item2=1,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00139,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00140,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=1,False
+validation_00141,allocation,allocation,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00142,allocation,allocation,item0=0 item1=1 item2=1 item0=4 item1=0 item2=1,item0=0 item1=1 item2=2 item0=4 item1=0 item2=0,False
+validation_00143,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00144,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00145,allocation,allocation,item0=1 item1=1 item2=1 item0=0 item1=2 item2=1,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00146,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=1,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00147,allocation,allocation,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,True
+validation_00148,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=3,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00149,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=1,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00150,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=1 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00151,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00152,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00153,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=2,item0=1 item1=4 item2=0 item0=1 item1=0 item2=2,False
+validation_00154,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=4 item2=0,item0=1 item1=0 item2=2 item0=1 item1=4 item2=0,False
+validation_00155,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00156,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00157,allocation,allocation,item0=0 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,False
+validation_00158,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00159,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00160,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00161,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00162,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=2,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00163,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=1 item2=2,item0=1 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00164,allocation,allocation,item0=1 item1=1 item2=2 item0=1 item1=1 item2=0,item0=1 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00165,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00166,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00167,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00168,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,item0=2 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00169,allocation,allocation,item0=0 item1=1 item2=4 item0=1 item1=0 item2=0,item0=1 item1=0 item2=4 item0=1 item1=0 item2=0,False
+validation_00170,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=4,item0=1 item1=0 item2=4 item0=1 item1=0 item2=0,False
+validation_00171,allocation,allocation,item0=2 item1=0 item2=1 item0=2 item1=1 item2=1,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,False
+validation_00172,allocation,allocation,item0=2 item1=1 item2=1 item0=2 item1=0 item2=1,item0=4 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_00173,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00174,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00175,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,True
+validation_00176,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00177,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00178,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00179,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00180,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00181,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00182,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00183,allocation,allocation,item0=0 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,False
+validation_00184,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00185,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00186,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00187,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00188,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,True
+validation_00189,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00190,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00191,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00192,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00193,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=4 item0=1 item1=1 item2=0,False
+validation_00194,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=0 item0=0 item1=0 item2=4,False
+validation_00195,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00196,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00197,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00198,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00199,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00200,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00201,allocation,allocation,item0=1 item1=1 item2=2 item0=0 item1=2 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00202,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=1 item2=2,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00203,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00204,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=2 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,False
+validation_00205,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=0 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00206,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00207,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,True
+validation_00208,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,True
+validation_00209,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00210,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00211,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00212,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00213,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00214,allocation,allocation,item0=0 item1=1 item2=2 item0=4 item1=0 item2=0,item0=4 item1=1 item2=2 item0=0 item1=1 item2=0,False
+validation_00215,allocation,allocation,item0=4 item1=0 item2=0 item0=0 item1=1 item2=2,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00216,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00217,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=2 item0=1 item1=0 item2=0,False
+validation_00218,allocation,allocation,item0=0 item1=1 item2=1 item0=1 item1=0 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00219,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=1,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00220,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=3,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00221,allocation,allocation,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,True
+validation_00222,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00223,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00224,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00225,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00226,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00227,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00228,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_00229,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00230,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00231,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00232,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00233,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00234,allocation,allocation,item0=0 item1=1 item2=4 item0=2 item1=0 item2=0,item0=0 item1=1 item2=4 item0=2 item1=0 item2=0,True
+validation_00235,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=4,item0=2 item1=0 item2=4 item0=0 item1=1 item2=0,False
+validation_00236,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00237,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=2 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00238,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=2 item2=3,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00239,allocation,allocation,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,item0=1 item1=0 item2=3 item0=1 item1=2 item2=0,False
+validation_00240,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=2 item2=0,False
+validation_00241,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00242,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00243,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00244,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00245,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00246,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00247,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00248,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00249,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00250,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00251,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00252,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00253,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00254,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00255,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00256,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00257,no_agreement,disagreement,OUTCOME: NO_AGREEMENT,OUTCOME: DISAGREEMENT,False
+validation_00258,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=2 item2=3,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00259,allocation,allocation,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00260,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=3,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,False
+validation_00261,allocation,allocation,item0=3 item1=0 item2=3 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=3,False
+validation_00262,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00263,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,False
+validation_00264,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,False
+validation_00265,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00266,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00267,allocation,allocation,item0=1 item1=1 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00268,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00269,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=2 item2=0,item0=0 item1=3 item2=0 item0=3 item1=0 item2=1,False
+validation_00270,allocation,allocation,item0=3 item1=2 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00271,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=1 item2=0,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00272,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=2,item0=1 item1=0 item2=1 item0=0 item1=2 item2=2,False
+validation_00273,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,True
+validation_00274,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,True
+validation_00275,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00276,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00277,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00278,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00279,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=4 item0=2 item1=0 item2=0,False
+validation_00280,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=4 item0=0 item1=1 item2=0,False
+validation_00281,allocation,allocation,item0=3 item1=0 item2=1 item0=1 item1=1 item2=0,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00282,allocation,allocation,item0=1 item1=1 item2=0 item0=3 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00283,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=0 item1=2 item2=2 item0=0 item1=2 item2=0,False
+validation_00284,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00285,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00286,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,False
+validation_00287,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=1,item0=1 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00288,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00289,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00290,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00291,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,False
+validation_00292,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00293,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00294,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00295,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00296,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=2,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00297,allocation,allocation,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00298,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00299,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00300,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00301,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00302,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00303,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00304,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=1 item1=0 item2=2,False
+validation_00305,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00306,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00307,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00308,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00309,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00310,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00311,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00312,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00313,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00314,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00315,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00316,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00317,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00318,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,True
+validation_00319,allocation,allocation,item0=0 item1=4 item2=1 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=1 item1=0 item2=2,False
+validation_00320,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=1,item0=1 item1=0 item2=2 item0=1 item1=0 item2=0,False
+validation_00321,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=2 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,False
+validation_00322,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00323,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00324,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00325,allocation,allocation,item0=2 item1=0 item2=1 item0=2 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00326,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=1,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00327,allocation,allocation,item0=0 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,False
+validation_00328,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00329,allocation,allocation,item0=0 item1=1 item2=0 item0=4 item1=0 item2=2,item0=0 item1=1 item2=2 item0=4 item1=0 item2=0,False
+validation_00330,allocation,allocation,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,True
+validation_00331,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00332,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00333,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=2 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00334,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00335,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00336,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00337,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=0 item2=1,False
+validation_00338,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00339,allocation,allocation,item0=1 item1=0 item2=3 item0=2 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00340,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=3,item0=3 item1=0 item2=0 item0=0 item1=1 item2=3,False
+validation_00341,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00342,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00343,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00344,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00345,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00346,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00347,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=2 item2=0,item0=0 item1=2 item2=2 item0=1 item1=2 item2=0,False
+validation_00348,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=2,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00349,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00350,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00351,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00352,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00353,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,True
+validation_00354,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,True
+validation_00355,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00356,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00357,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=0 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00358,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00359,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=3 item1=0 item2=1,False
+validation_00360,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00361,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00362,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00363,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00364,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00365,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00366,allocation,allocation,item0=1 item1=0 item2=4 item0=0 item1=1 item2=0,item0=1 item1=1 item2=4 item0=0 item1=1 item2=0,False
+validation_00367,allocation,allocation,item0=0 item1=1 item2=0 item0=1 item1=0 item2=4,item0=1 item1=1 item2=0 item0=1 item1=0 item2=4,False
+validation_00368,no_agreement,allocation,OUTCOME: NO_AGREEMENT,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00369,no_agreement,allocation,OUTCOME: NO_AGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00370,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=1 item1=2 item2=4,False
+validation_00371,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=1 item1=2 item2=4,False
+validation_00372,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00373,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=0 item1=4 item2=1,False
+validation_00374,allocation,allocation,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,False
+validation_00375,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=2 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00376,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00377,allocation,allocation,item0=1 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=1 item0=3 item1=0 item2=1,False
+validation_00378,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00379,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00380,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00381,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,False
+validation_00382,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00383,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00384,allocation,allocation,item0=1 item1=4 item2=0 item0=0 item1=0 item2=2,item0=1 item1=4 item2=0 item0=1 item1=0 item2=2,False
+validation_00385,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=4 item2=0,item0=1 item1=0 item2=2 item0=1 item1=4 item2=0,False
+validation_00386,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00387,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00388,allocation,allocation,item0=1 item1=4 item2=0 item0=0 item1=0 item2=2,item0=1 item1=4 item2=0 item0=1 item1=0 item2=2,False
+validation_00389,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=4 item2=0,item0=1 item1=0 item2=2 item0=1 item1=0 item2=0,False
+validation_00390,allocation,allocation,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00391,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=3,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00392,allocation,allocation,item0=1 item1=1 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00393,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00394,allocation,allocation,item0=1 item1=4 item2=0 item0=0 item1=0 item2=2,item0=1 item1=4 item2=0 item0=1 item1=0 item2=2,False
+validation_00395,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=4 item2=0,item0=1 item1=0 item2=2 item0=1 item1=4 item2=0,False
+validation_00396,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00397,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=0 item1=0 item2=1,False
+validation_00398,allocation,allocation,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,True
+validation_00399,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=2 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00400,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=4 item0=1 item1=0 item2=0,False
+validation_00401,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00402,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=1,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00403,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00404,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=2 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00405,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00406,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=3,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,False
+validation_00407,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00408,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00409,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00410,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00411,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00412,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,False
+validation_00413,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00414,allocation,allocation,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,False
+validation_00415,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00416,allocation,allocation,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00417,allocation,allocation,item0=0 item1=1 item2=0 item0=4 item1=0 item2=1,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00418,allocation,allocation,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,item0=0 item1=2 item2=1 item0=4 item1=0 item2=1,False
+validation_00419,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00420,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00421,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00422,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00423,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,True
+validation_00424,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00425,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=2,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00426,allocation,allocation,item0=2 item1=0 item2=2 item0=2 item1=1 item2=0,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00427,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,item0=4 item1=0 item2=2 item0=0 item1=0 item2=0,False
+validation_00428,allocation,allocation,item0=2 item1=3 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00429,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=3 item2=0,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00430,allocation,allocation,item0=0 item1=1 item2=0 item0=1 item1=1 item2=2,item0=0 item1=2 item2=0 item0=1 item1=1 item2=2,False
+validation_00431,allocation,allocation,item0=1 item1=1 item2=2 item0=0 item1=1 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00432,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00433,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=2 item2=0,item0=0 item1=3 item2=1 item0=2 item1=0 item2=0,False
+validation_00434,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,False
+validation_00435,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00436,allocation,allocation,item0=0 item1=2 item2=2 item0=1 item1=1 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00437,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00438,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00439,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00440,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=1 item0=1 item1=0 item2=1,False
+validation_00441,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=1,False
+validation_00442,allocation,allocation,item0=3 item1=0 item2=1 item0=1 item1=2 item2=0,item0=4 item1=1 item2=0 item0=0 item1=2 item2=1,False
+validation_00443,allocation,allocation,item0=1 item1=2 item2=0 item0=3 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00444,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=1 item2=1,False
+validation_00445,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=1 item0=1 item1=0 item2=1,False
+validation_00446,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=1,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00447,allocation,allocation,item0=1 item1=1 item2=1 item0=0 item1=2 item2=1,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00448,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00449,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,item0=2 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00450,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00451,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00452,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00453,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00454,allocation,allocation,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,item0=2 item1=0 item2=3 item0=0 item1=0 item2=0,False
+validation_00455,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=3,item0=2 item1=0 item2=3 item0=2 item1=0 item2=0,False
+validation_00456,disconnect,allocation,OUTCOME: DISCONNECT,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00457,disconnect,allocation,OUTCOME: DISCONNECT,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00458,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00459,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00460,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=1 item1=0 item2=1 item0=3 item1=1 item2=0,False
+validation_00461,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=1 item1=1 item2=0 item0=3 item1=0 item2=1,False
+validation_00462,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=0 item0=0 item1=0 item2=1,False
+validation_00463,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00464,allocation,allocation,item0=3 item1=3 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00465,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=3 item2=0,item0=0 item1=3 item2=0 item0=3 item1=0 item2=1,False
+validation_00466,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00467,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00468,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=1,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00469,allocation,allocation,item0=1 item1=3 item2=1 item0=0 item1=0 item2=1,item0=1 item1=0 item2=2 item0=1 item1=0 item2=0,False
+validation_00470,allocation,allocation,item0=1 item1=1 item2=0 item0=3 item1=0 item2=1,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00471,allocation,allocation,item0=3 item1=0 item2=1 item0=1 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00472,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00473,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=1 item2=0,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00474,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00475,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00476,allocation,allocation,item0=0 item1=0 item2=4 item0=2 item1=1 item2=0,item0=0 item1=1 item2=4 item0=2 item1=0 item2=0,False
+validation_00477,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=4,item0=2 item1=0 item2=4 item0=0 item1=1 item2=0,False
+validation_00478,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,item0=0 item1=3 item2=1 item0=2 item1=0 item2=0,False
+validation_00479,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00480,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=1,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00481,allocation,allocation,item0=0 item1=1 item2=1 item0=1 item1=0 item2=2,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00482,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00483,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00484,allocation,allocation,item0=0 item1=1 item2=1 item0=4 item1=0 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00485,allocation,allocation,item0=4 item1=0 item2=0 item0=0 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00486,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00487,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00488,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00489,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=1,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00490,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00491,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00492,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=1 item2=0,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00493,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=2 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00494,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00495,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00496,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00497,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00498,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00499,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00500,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00501,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=0 item1=2 item2=1 item0=0 item1=2 item2=0,False
+validation_00502,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00503,allocation,allocation,item0=1 item1=3 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00504,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=3 item2=0,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00505,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00506,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00507,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00508,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00509,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00510,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00511,allocation,allocation,item0=3 item1=1 item2=0 item0=1 item1=0 item2=2,item0=4 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00512,allocation,allocation,item0=1 item1=0 item2=2 item0=3 item1=1 item2=0,item0=4 item1=1 item2=2 item0=0 item1=1 item2=0,False
+validation_00513,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=1 item1=2 item2=0 item0=1 item1=1 item2=1,False
+validation_00514,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00515,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=0 item1=1 item2=1 item0=2 item1=0 item2=0,False
+validation_00516,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00517,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00518,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,False
+validation_00519,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,True
+validation_00520,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00521,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00522,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00523,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00524,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00525,allocation,allocation,item0=3 item1=0 item2=1 item0=1 item1=2 item2=0,item0=4 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00526,allocation,no_agreement,item0=1 item1=2 item2=0 item0=3 item1=0 item2=1,OUTCOME: NO_AGREEMENT,False
+validation_00527,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00528,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00529,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=0 item1=4 item2=1 item0=1 item1=0 item2=1,False
+validation_00530,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=4 item2=0 item0=0 item1=4 item2=1,False
+validation_00531,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00532,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=3,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,False
+validation_00533,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=3,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00534,allocation,allocation,item0=0 item1=0 item2=3 item0=2 item1=1 item2=0,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00535,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00536,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=2 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,False
+validation_00537,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=1 item0=0 item1=0 item2=2,False
+validation_00538,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=0 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00539,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00540,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,True
+validation_00541,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00542,disconnect,allocation,OUTCOME: DISCONNECT,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00543,disconnect,allocation,OUTCOME: DISCONNECT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00544,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00545,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00546,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00547,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=1 item2=1,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00548,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=0 item0=1 item1=0 item2=2,False
+validation_00549,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=2 item0=1 item1=1 item2=0,False
+validation_00550,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=2,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00551,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=1,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00552,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00553,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00554,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00555,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00556,allocation,allocation,item0=0 item1=3 item2=2 item0=1 item1=0 item2=1,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00557,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=2,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00558,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=4 item2=1 item0=1 item1=0 item2=1,False
+validation_00559,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,False
+validation_00560,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00561,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00562,allocation,allocation,item0=3 item1=0 item2=1 item0=1 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00563,allocation,allocation,item0=1 item1=1 item2=0 item0=3 item1=0 item2=1,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00564,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,False
+validation_00565,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00566,allocation,allocation,item0=2 item1=0 item2=0 item0=1 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00567,allocation,allocation,item0=1 item1=1 item2=1 item0=2 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00568,allocation,allocation,item0=2 item1=0 item2=2 item0=2 item1=1 item2=0,item0=4 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00569,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,item0=0 item1=1 item2=2 item0=4 item1=0 item2=0,False
+validation_00570,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00571,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00572,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00573,allocation,allocation,item0=0 item1=0 item2=1 item0=4 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00574,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00575,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00576,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00577,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00578,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00579,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00580,allocation,allocation,item0=1 item1=1 item2=0 item0=2 item1=0 item2=1,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,False
+validation_00581,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00582,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=2,item0=0 item1=2 item2=0 item0=1 item1=0 item2=2,True
+validation_00583,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,True
+validation_00584,allocation,allocation,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00585,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=2 item2=2,item0=2 item1=0 item2=1 item0=2 item1=0 item2=2,False
+validation_00586,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=2 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00587,allocation,allocation,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,False
+validation_00588,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00589,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00590,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00591,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=3 item2=1,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00592,allocation,allocation,item0=0 item1=3 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00593,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00594,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00595,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00596,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00597,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00598,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00599,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00600,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00601,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00602,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=0 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00603,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=1 item2=0,item0=0 item1=1 item2=2 item0=2 item1=1 item2=0,False
+validation_00604,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=4,False
+validation_00605,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=4,False
+validation_00606,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=4 item2=0 item0=0 item1=4 item2=2,False
+validation_00607,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=1 item1=4 item2=0,False
+validation_00608,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00609,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00610,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00611,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00612,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00613,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=2 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,False
+validation_00614,allocation,allocation,item0=1 item1=1 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00615,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00616,allocation,allocation,item0=0 item1=4 item2=0 item0=1 item1=0 item2=1,item0=1 item1=4 item2=0 item0=0 item1=4 item2=1,False
+validation_00617,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=4 item2=0,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00618,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00619,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00620,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00621,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00622,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00623,allocation,allocation,item0=0 item1=2 item2=2 item0=1 item1=1 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00624,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=1 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00625,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00626,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00627,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00628,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00629,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=4 item1=0 item2=1,False
+validation_00630,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00631,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00632,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00633,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00634,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=1,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,False
+validation_00635,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=2,item0=3 item1=0 item2=1 item0=0 item1=1 item2=3,False
+validation_00636,no_agreement,allocation,OUTCOME: NO_AGREEMENT,item0=2 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00637,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00638,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=1 item0=1 item1=0 item2=1,False
+validation_00639,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00640,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00641,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=0 item1=1 item2=1 item0=3 item1=0 item2=1,False
+validation_00642,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=3 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=1,False
+validation_00643,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00644,allocation,allocation,item0=1 item1=1 item2=1 item0=3 item1=0 item2=0,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00645,allocation,allocation,item0=3 item1=0 item2=0 item0=1 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00646,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00647,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,True
+validation_00648,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=1 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00649,allocation,allocation,item0=1 item1=1 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00650,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00651,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00652,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00653,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00654,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_00655,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00656,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00657,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00658,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_00659,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,item0=0 item1=2 item2=1 item0=3 item1=0 item2=1,False
+validation_00660,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,item0=0 item1=2 item2=3 item0=1 item1=2 item2=0,False
+validation_00661,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,item0=1 item1=2 item2=0 item0=0 item1=2 item2=3,False
+validation_00662,allocation,allocation,item0=0 item1=1 item2=1 item0=4 item1=0 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00663,allocation,allocation,item0=4 item1=0 item2=0 item0=0 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00664,allocation,allocation,item0=0 item1=0 item2=1 item0=4 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00665,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=1,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00666,allocation,allocation,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00667,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=2 item2=2,item0=2 item1=0 item2=1 item0=2 item1=0 item2=2,False
+validation_00668,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00669,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00670,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00671,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00672,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00673,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,item0=0 item1=2 item2=1 item0=3 item1=0 item2=1,False
+validation_00674,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_00675,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_00676,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00677,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=2 item2=0,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00678,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=4,item0=1 item1=2 item2=0 item0=1 item1=0 item2=4,False
+validation_00679,allocation,allocation,item0=0 item1=1 item2=4 item0=1 item1=1 item2=0,item0=1 item1=2 item2=0 item0=1 item1=0 item2=4,False
+validation_00680,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=0,item0=1 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00681,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=1,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00682,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00683,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00684,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00685,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00686,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00687,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00688,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00689,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00690,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00691,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00692,allocation,allocation,item0=1 item1=0 item2=3 item0=0 item1=3 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00693,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=3,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_00694,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00695,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=1 item1=0 item2=0,False
+validation_00696,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00697,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00698,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=1 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00699,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=2 item2=0,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00700,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00701,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00702,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,False
+validation_00703,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00704,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00705,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00706,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,item0=0 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00707,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=2 item0=1 item1=0 item2=0,False
+validation_00708,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=1 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00709,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=2 item2=0,item0=1 item1=3 item2=0 item0=0 item1=3 item2=2,False
+validation_00710,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,True
+validation_00711,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00712,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00713,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00714,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00715,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00716,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00717,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00718,allocation,allocation,item0=0 item1=1 item2=1 item0=4 item1=0 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00719,allocation,allocation,item0=4 item1=0 item2=0 item0=0 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00720,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=1 item2=0,item0=0 item1=2 item2=2 item0=1 item1=2 item2=0,False
+validation_00721,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=2,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00722,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=1 item2=0,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00723,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=2 item2=1,item0=2 item1=3 item2=0 item0=0 item1=3 item2=1,False
+validation_00724,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=3,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00725,allocation,allocation,item0=0 item1=0 item2=3 item0=2 item1=1 item2=0,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00726,allocation,allocation,item0=0 item1=2 item2=1 item0=3 item1=1 item2=0,item0=0 item1=3 item2=1 item0=3 item1=0 item2=1,False
+validation_00727,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=2 item2=1,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00728,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,False
+validation_00729,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00730,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00731,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=0 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00732,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_00733,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00734,allocation,allocation,item0=1 item1=1 item2=1 item0=3 item1=0 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00735,allocation,allocation,item0=3 item1=0 item2=0 item0=1 item1=1 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00736,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=1 item2=0,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00737,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=2,item0=1 item1=0 item2=1 item0=0 item1=2 item2=2,False
+validation_00738,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00739,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00740,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00741,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,True
+validation_00742,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00743,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00744,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00745,allocation,allocation,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,True
+validation_00746,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=2 item2=0,False
+validation_00747,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00748,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=3,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_00749,allocation,allocation,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,True
+validation_00750,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00751,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00752,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00753,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,True
+validation_00754,allocation,allocation,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,item0=0 item1=0 item2=2 item0=4 item1=0 item2=2,False
+validation_00755,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=2,item0=4 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_00756,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00757,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00758,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00759,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00760,allocation,allocation,item0=0 item1=1 item2=1 item0=1 item1=0 item2=2,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00761,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=1,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00762,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00763,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00764,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00765,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00766,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=4,item0=1 item1=2 item2=0 item0=0 item1=2 item2=4,False
+validation_00767,allocation,allocation,item0=0 item1=0 item2=4 item0=1 item1=2 item2=0,item0=0 item1=2 item2=4 item0=1 item1=0 item2=0,False
+validation_00768,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=4,item0=2 item1=0 item2=4 item0=0 item1=1 item2=0,False
+validation_00769,allocation,allocation,item0=0 item1=0 item2=4 item0=2 item1=1 item2=0,item0=0 item1=1 item2=4 item0=2 item1=0 item2=0,False
+validation_00770,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00771,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00772,allocation,allocation,item0=1 item1=3 item2=1 item0=2 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=1,False
+validation_00773,allocation,allocation,item0=2 item1=0 item2=0 item0=1 item1=3 item2=1,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00774,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00775,allocation,allocation,item0=0 item1=1 item2=0 item0=3 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00776,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,False
+validation_00777,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=2 item0=0 item1=0 item2=0,False
+validation_00778,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=3,item0=3 item1=0 item2=1 item0=0 item1=1 item2=3,False
+validation_00779,allocation,allocation,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,True
+validation_00780,allocation,allocation,item0=0 item1=0 item2=1 item0=4 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00781,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00782,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=1,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00783,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=1,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00784,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=1 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00785,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00786,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00787,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00788,allocation,allocation,item0=2 item1=0 item2=1 item0=2 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00789,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00790,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00791,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=3 item2=0,item0=0 item1=3 item2=0 item0=3 item1=0 item2=1,False
+validation_00792,allocation,allocation,item0=3 item1=3 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00793,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=4 item0=2 item1=1 item2=0,False
+validation_00794,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00795,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00796,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00797,allocation,no_agreement,item0=1 item1=1 item2=2 item0=0 item1=1 item2=0,OUTCOME: NO_AGREEMENT,False
+validation_00798,allocation,no_agreement,item0=0 item1=1 item2=0 item0=1 item1=1 item2=2,OUTCOME: NO_AGREEMENT,False
+validation_00799,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00800,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00801,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00802,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_00803,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=4,item0=1 item1=2 item2=0 item0=1 item1=0 item2=4,False
+validation_00804,allocation,allocation,item0=0 item1=0 item2=4 item0=1 item1=2 item2=0,item0=1 item1=0 item2=4 item0=1 item1=2 item2=0,False
+validation_00805,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00806,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00807,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=3 item2=1,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00808,allocation,allocation,item0=1 item1=3 item2=1 item0=1 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00809,allocation,allocation,item0=3 item1=1 item2=0 item0=1 item1=0 item2=2,item0=4 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_00810,allocation,allocation,item0=1 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,False
+validation_00811,allocation,allocation,item0=4 item1=0 item2=0 item0=0 item1=1 item2=2,item0=4 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00812,allocation,allocation,item0=0 item1=1 item2=2 item0=4 item1=0 item2=0,item0=4 item1=1 item2=2 item0=0 item1=1 item2=0,False
+validation_00813,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00814,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00815,allocation,allocation,item0=3 item1=2 item2=0 item0=0 item1=0 item2=1,item0=1 item1=1 item2=0 item0=3 item1=0 item2=1,False
+validation_00816,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=2 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=1,False
+validation_00817,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,False
+validation_00818,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00819,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=0 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_00820,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_00821,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00822,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_00823,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=2,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00824,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=2 item2=0,item0=0 item1=2 item2=1 item0=1 item1=2 item2=0,False
+validation_00825,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00826,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00827,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00828,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=2 item2=0,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00829,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00830,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=3 item2=1,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00831,allocation,allocation,item0=0 item1=3 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00832,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00833,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,True
+validation_00834,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=1 item1=2 item2=0 item0=0 item1=2 item2=1,False
+validation_00835,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,True
+validation_00836,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00837,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00838,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00839,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,False
+validation_00840,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00841,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00842,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00843,disconnect,allocation,OUTCOME: DISCONNECT,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00844,disconnect,allocation,OUTCOME: DISCONNECT,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00845,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00846,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00847,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,True
+validation_00848,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00849,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00850,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00851,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00852,allocation,allocation,item0=0 item1=2 item2=2 item0=1 item1=1 item2=0,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00853,allocation,allocation,item0=1 item1=2 item2=1 item0=1 item1=1 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=0,False
+validation_00854,allocation,allocation,item0=1 item1=1 item2=0 item0=1 item1=2 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00855,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=2,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00856,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=1,item0=0 item1=1 item2=3 item0=3 item1=0 item2=0,False
+validation_00857,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=2,item0=1 item1=1 item2=4 item0=1 item1=0 item2=0,False
+validation_00858,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=2,item0=1 item1=1 item2=0 item0=1 item1=0 item2=4,False
+validation_00859,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=1,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,False
+validation_00860,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,True
+validation_00861,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00862,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=0 item2=2,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00863,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00864,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00865,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00866,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,False
+validation_00867,allocation,allocation,item0=2 item1=0 item2=1 item0=2 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00868,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=1,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00869,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=3 item1=0 item2=1,False
+validation_00870,allocation,allocation,item0=1 item1=0 item2=3 item0=2 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_00871,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=3,item0=3 item1=0 item2=0 item0=0 item1=1 item2=3,False
+validation_00872,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00873,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=1,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,False
+validation_00874,allocation,allocation,item0=1 item1=2 item2=1 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=1 item1=0 item2=1,False
+validation_00875,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,False
+validation_00876,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00877,allocation,allocation,item0=1 item1=1 item2=1 item0=0 item1=2 item2=0,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00878,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=1 item2=1,item0=1 item1=3 item2=0 item0=1 item1=0 item2=1,False
+validation_00879,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,item0=4 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00880,allocation,allocation,item0=2 item1=0 item2=2 item0=2 item1=1 item2=0,item0=4 item1=1 item2=2 item0=0 item1=1 item2=0,False
+validation_00881,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00882,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=2 item1=0 item2=0 item0=2 item1=0 item2=2,False
+validation_00883,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=4 item0=1 item1=0 item2=0,False
+validation_00884,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=4 item0=1 item1=1 item2=0,False
+validation_00885,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,False
+validation_00886,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00887,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00888,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00889,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00890,disagreement,no_agreement,OUTCOME: DISAGREEMENT,OUTCOME: NO_AGREEMENT,False
+validation_00891,allocation,allocation,item0=0 item1=2 item2=3 item0=1 item1=0 item2=0,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_00892,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=2 item2=3,item0=1 item1=2 item2=0 item0=1 item1=2 item2=3,False
+validation_00893,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00894,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00895,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=3 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00896,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00897,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=2,item0=1 item1=3 item2=0 item0=0 item1=2 item2=2,False
+validation_00898,allocation,allocation,item0=0 item1=2 item2=2 item0=1 item1=1 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_00899,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00900,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00901,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00902,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=1 item2=2 item0=1 item1=0 item2=0,False
+validation_00903,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=0 item1=1 item2=1 item0=3 item1=1 item2=0,False
+validation_00904,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00905,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=2 item2=0,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00906,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=1,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_00907,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00908,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,True
+validation_00909,allocation,allocation,item0=1 item1=3 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00910,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=3 item2=0,item0=0 item1=3 item2=0 item0=3 item1=0 item2=1,False
+validation_00911,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00912,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_00913,allocation,allocation,item0=0 item1=4 item2=1 item0=1 item1=0 item2=0,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_00914,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=4 item2=1,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_00915,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,True
+validation_00916,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_00917,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00918,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00919,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00920,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00921,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00922,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00923,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=1,item0=1 item1=1 item2=0 item0=1 item1=0 item2=4,False
+validation_00924,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=1 item2=3,item0=1 item1=0 item2=4 item0=1 item1=1 item2=0,False
+validation_00925,allocation,allocation,item0=0 item1=1 item2=0 item0=4 item1=0 item2=1,item0=0 item1=1 item2=1 item0=4 item1=1 item2=0,False
+validation_00926,allocation,allocation,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00927,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_00928,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_00929,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=4,item0=1 item1=2 item2=0 item0=0 item1=2 item2=4,False
+validation_00930,allocation,no_agreement,item0=0 item1=1 item2=4 item0=1 item1=1 item2=0,OUTCOME: NO_AGREEMENT,False
+validation_00931,allocation,no_agreement,item0=2 item1=0 item2=0 item0=0 item1=2 item2=2,OUTCOME: NO_AGREEMENT,False
+validation_00932,allocation,no_agreement,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,OUTCOME: NO_AGREEMENT,False
+validation_00933,allocation,allocation,item0=2 item1=2 item2=0 item0=0 item1=1 item2=2,item0=0 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_00934,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=2 item2=0,item0=0 item1=3 item2=2 item0=2 item1=0 item2=0,False
+validation_00935,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_00936,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,True
+validation_00937,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00938,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00939,allocation,allocation,item0=3 item1=1 item2=1 item0=0 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00940,allocation,allocation,item0=0 item1=2 item2=0 item0=3 item1=1 item2=1,item0=0 item1=3 item2=1 item0=3 item1=0 item2=0,False
+validation_00941,allocation,allocation,item0=0 item1=0 item2=1 item0=4 item1=1 item2=0,item0=0 item1=1 item2=1 item0=4 item1=0 item2=1,False
+validation_00942,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=1,item0=4 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00943,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00944,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00945,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=2,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00946,allocation,allocation,item0=0 item1=0 item2=2 item0=2 item1=1 item2=0,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_00947,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_00948,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_00949,allocation,allocation,item0=1 item1=1 item2=0 item0=2 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,False
+validation_00950,allocation,allocation,item0=2 item1=0 item2=1 item0=1 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00951,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00952,allocation,allocation,item0=1 item1=0 item2=1 item0=2 item1=1 item2=0,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00953,allocation,allocation,item0=2 item1=1 item2=0 item0=1 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_00954,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=1,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_00955,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_00956,allocation,allocation,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_00957,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=1,False
+validation_00958,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00959,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00960,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=1,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00961,allocation,allocation,item0=2 item1=0 item2=1 item0=0 item1=2 item2=1,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,False
+validation_00962,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=1,item0=0 item1=1 item2=4 item0=1 item1=2 item2=0,False
+validation_00963,allocation,allocation,item0=1 item1=1 item2=1 item0=0 item1=1 item2=3,item0=1 item1=0 item2=4 item0=0 item1=2 item2=0,False
+validation_00964,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=2,item0=1 item1=2 item2=0 item0=1 item1=0 item2=2,False
+validation_00965,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=2 item2=0,item0=1 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_00966,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=2,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00967,allocation,allocation,item0=0 item1=3 item2=2 item0=1 item1=0 item2=1,item0=1 item1=3 item2=0 item0=0 item1=3 item2=3,False
+validation_00968,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00969,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00970,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=1,item0=0 item1=3 item2=1 item0=1 item1=0 item2=1,False
+validation_00971,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,item0=1 item1=0 item2=1 item0=0 item1=3 item2=0,True
+validation_00972,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_00973,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,False
+validation_00974,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=1 item2=3 item0=0 item1=1 item2=0,False
+validation_00975,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=0 item2=1 item0=0 item1=0 item2=1,False
+validation_00976,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00977,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=1 item2=3,item0=1 item1=1 item2=0 item0=1 item1=0 item2=3,False
+validation_00978,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_00979,allocation,allocation,item0=2 item1=0 item2=0 item0=1 item1=1 item2=1,item0=3 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_00980,allocation,allocation,item0=1 item1=1 item2=1 item0=2 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_00981,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=2,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_00982,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=2 item2=0,item0=0 item1=2 item2=2 item0=1 item1=2 item2=0,False
+validation_00983,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00984,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00985,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=0 item2=4,item0=1 item1=2 item2=0 item0=0 item1=2 item2=4,False
+validation_00986,allocation,allocation,item0=0 item1=0 item2=4 item0=1 item1=2 item2=0,item0=0 item1=2 item2=4 item0=1 item1=0 item2=0,False
+validation_00987,allocation,allocation,item0=0 item1=2 item2=1 item0=2 item1=0 item2=0,item0=1 item1=2 item2=0 item0=2 item1=0 item2=1,False
+validation_00988,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=2 item2=1,item0=2 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_00989,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00990,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,item0=2 item1=0 item2=2 item0=0 item1=3 item2=0,False
+validation_00991,allocation,allocation,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,True
+validation_00992,allocation,allocation,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,item0=0 item1=0 item2=2 item0=1 item1=3 item2=0,True
+validation_00993,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00994,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00995,allocation,allocation,item0=2 item1=1 item2=0 item0=2 item1=0 item2=2,item0=4 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_00996,allocation,allocation,item0=2 item1=0 item2=2 item0=2 item1=1 item2=0,item0=4 item1=1 item2=2 item0=0 item1=1 item2=0,False
+validation_00997,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00998,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_00999,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=4,item0=2 item1=0 item2=4 item0=0 item1=0 item2=0,False
+validation_01000,allocation,allocation,item0=0 item1=0 item2=4 item0=2 item1=1 item2=0,item0=0 item1=0 item2=4 item0=2 item1=0 item2=0,False
+validation_01001,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_01002,allocation,allocation,item0=0 item1=1 item2=3 item0=1 item1=1 item2=0,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_01003,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=1 item0=2 item1=0 item2=1,False
+validation_01004,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_01005,allocation,allocation,item0=0 item1=2 item2=2 item0=1 item1=1 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_01006,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=0 item1=1 item2=1 item0=3 item1=0 item2=1,False
+validation_01007,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=1,False
+validation_01008,allocation,allocation,item0=0 item1=3 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_01009,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=3 item2=1,item0=3 item1=0 item2=1 item0=3 item1=0 item2=1,False
+validation_01010,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_01011,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_01012,allocation,allocation,item0=4 item1=1 item2=0 item0=0 item1=0 item2=2,item0=4 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_01013,allocation,allocation,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,True
+validation_01014,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,True
+validation_01015,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,True
+validation_01016,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=2 item0=2 item1=0 item2=0,False
+validation_01017,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_01018,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=1 item2=0 item0=0 item1=1 item2=1,False
+validation_01019,allocation,allocation,item0=1 item1=0 item2=1 item0=1 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_01020,allocation,allocation,item0=1 item1=2 item2=0 item0=1 item1=0 item2=1,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_01021,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=0 item2=1,item0=0 item1=2 item2=2 item0=1 item1=0 item2=0,False
+validation_01022,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=2 item2=1,item0=1 item1=0 item2=2 item0=0 item1=2 item2=0,False
+validation_01023,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=2 item2=1,item0=3 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_01024,allocation,allocation,item0=0 item1=2 item2=1 item0=3 item1=0 item2=0,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,False
+validation_01025,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01026,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01027,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_01028,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=1 item0=2 item1=0 item2=1,False
+validation_01029,allocation,allocation,item0=2 item1=0 item2=0 item0=0 item1=1 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_01030,allocation,allocation,item0=0 item1=1 item2=2 item0=2 item1=0 item2=0,item0=1 item1=1 item2=2 item0=2 item1=0 item2=0,False
+validation_01031,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=2 item2=0,item0=3 item1=0 item2=1 item0=0 item1=2 item2=1,False
+validation_01032,allocation,allocation,item0=0 item1=2 item2=0 item0=3 item1=0 item2=1,item0=0 item1=2 item2=1 item0=3 item1=0 item2=1,False
+validation_01033,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=1,item0=3 item1=0 item2=0 item0=0 item1=0 item2=1,False
+validation_01034,allocation,allocation,item0=0 item1=0 item2=1 item0=3 item1=1 item2=0,item0=0 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_01035,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=3 item2=0,item0=1 item1=3 item2=0 item0=0 item1=3 item2=0,False
+validation_01036,allocation,allocation,item0=0 item1=3 item2=0 item0=1 item1=0 item2=2,item0=1 item1=3 item2=0 item0=0 item1=3 item2=2,False
+validation_01037,allocation,allocation,item0=0 item1=0 item2=1 item0=2 item1=3 item2=0,item0=2 item1=0 item2=1 item0=0 item1=3 item2=0,False
+validation_01038,allocation,allocation,item0=2 item1=3 item2=0 item0=0 item1=0 item2=1,item0=0 item1=3 item2=0 item0=2 item1=0 item2=1,False
+validation_01039,allocation,allocation,item0=3 item1=0 item2=1 item0=0 item1=1 item2=2,item0=1 item1=1 item2=0 item0=0 item1=1 item2=3,False
+validation_01040,allocation,allocation,item0=0 item1=1 item2=2 item0=3 item1=0 item2=1,item0=0 item1=1 item2=3 item0=3 item1=1 item2=0,False
+validation_01041,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=2 item2=0,item0=2 item1=0 item2=1 item0=0 item1=2 item2=0,False
+validation_01042,allocation,allocation,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,item0=0 item1=2 item2=0 item0=2 item1=0 item2=2,True
+validation_01043,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01044,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01045,allocation,allocation,item0=0 item1=0 item2=1 item0=1 item1=4 item2=0,item0=0 item1=0 item2=1 item0=0 item1=4 item2=0,False
+validation_01046,allocation,allocation,item0=1 item1=4 item2=0 item0=0 item1=0 item2=1,item0=0 item1=4 item2=1 item0=1 item1=0 item2=1,False
+validation_01047,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01048,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01049,allocation,allocation,item0=3 item1=1 item2=0 item0=0 item1=0 item2=2,item0=3 item1=0 item2=0 item0=0 item1=1 item2=2,False
+validation_01050,allocation,allocation,item0=0 item1=0 item2=2 item0=3 item1=1 item2=0,item0=0 item1=1 item2=2 item0=3 item1=0 item2=0,False
+validation_01051,allocation,allocation,item0=0 item1=0 item2=3 item0=1 item1=1 item2=0,item0=1 item1=0 item2=3 item0=1 item1=0 item2=0,False
+validation_01052,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=0 item2=3,item0=1 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_01053,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=0 item2=1,item0=0 item1=1 item2=3 item0=1 item1=0 item2=0,False
+validation_01054,allocation,allocation,item0=1 item1=0 item2=1 item0=0 item1=1 item2=2,item0=1 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_01055,allocation,allocation,item0=0 item1=1 item2=1 item0=2 item1=0 item2=2,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_01056,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=1,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_01057,allocation,allocation,item0=0 item1=1 item2=0 item0=2 item1=0 item2=2,item0=2 item1=1 item2=0 item0=0 item1=1 item2=2,False
+validation_01058,allocation,allocation,item0=2 item1=0 item2=2 item0=0 item1=1 item2=0,item0=0 item1=1 item2=1 item0=2 item1=0 item2=0,False
+validation_01059,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=1 item1=0 item2=3,False
+validation_01060,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01061,no_agreement,no_agreement,OUTCOME: NO_AGREEMENT,OUTCOME: NO_AGREEMENT,True
+validation_01062,allocation,allocation,item0=1 item1=1 item2=2 item0=0 item1=2 item2=0,item0=1 item1=3 item2=0 item0=0 item1=3 item2=2,False
+validation_01063,allocation,allocation,item0=0 item1=2 item2=0 item0=1 item1=1 item2=2,item0=1 item1=3 item2=0 item0=0 item1=2 item2=2,False
+validation_01064,allocation,allocation,item0=0 item1=4 item2=1 item0=1 item1=0 item2=0,item0=1 item1=4 item2=0 item0=1 item1=0 item2=1,False
+validation_01065,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=4 item2=1,item0=1 item1=0 item2=1 item0=1 item1=4 item2=0,False
+validation_01066,allocation,allocation,item0=2 item1=1 item2=0 item0=0 item1=0 item2=3,item0=2 item1=0 item2=3 item0=0 item1=1 item2=0,False
+validation_01067,allocation,allocation,item0=0 item1=0 item2=3 item0=2 item1=1 item2=0,item0=0 item1=1 item2=3 item0=2 item1=0 item2=0,False
+validation_01068,allocation,allocation,item0=1 item1=3 item2=0 item0=1 item1=0 item2=2,item0=2 item1=3 item2=0 item0=2 item1=0 item2=2,False
+validation_01069,allocation,allocation,item0=1 item1=0 item2=2 item0=1 item1=3 item2=0,item0=2 item1=0 item2=2 item0=2 item1=0 item2=0,False
+validation_01070,allocation,allocation,item0=1 item1=0 item2=2 item0=0 item1=1 item2=1,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_01071,allocation,allocation,item0=0 item1=1 item2=1 item0=1 item1=0 item2=2,item0=1 item1=1 item2=0 item0=1 item1=1 item2=3,False
+validation_01072,allocation,allocation,item0=1 item1=1 item2=0 item0=0 item1=2 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_01073,allocation,allocation,item0=0 item1=2 item2=1 item0=1 item1=1 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False
+validation_01074,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=2 item2=0 item0=1 item1=2 item2=2,False
+validation_01075,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=0 item1=2 item2=2,False
+validation_01076,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=1 item1=0 item2=3,False
+validation_01077,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=0 item2=3 item0=1 item1=2 item2=0,False
+validation_01078,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=4 item1=0 item2=2 item0=0 item1=0 item2=2,False
+validation_01079,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=0 item1=0 item2=2 item0=4 item1=1 item2=0,False
+validation_01080,allocation,allocation,item0=1 item1=2 item2=0 item0=0 item1=1 item2=2,item0=1 item1=3 item2=0 item0=0 item1=0 item2=2,False
+validation_01081,allocation,allocation,item0=0 item1=1 item2=2 item0=1 item1=2 item2=0,item0=0 item1=3 item2=2 item0=1 item1=0 item2=0,False
+validation_01082,allocation,allocation,item0=3 item1=0 item2=0 item0=0 item1=1 item2=1,item0=3 item1=0 item2=1 item0=0 item1=1 item2=0,False
+validation_01083,allocation,allocation,item0=0 item1=1 item2=1 item0=3 item1=0 item2=0,item0=3 item1=0 item2=1 item0=3 item1=0 item2=0,False
+validation_01084,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=3 item2=0 item0=1 item1=2 item2=1,False
+validation_01085,disagreement,allocation,OUTCOME: DISAGREEMENT,item0=1 item1=2 item2=0 item0=1 item1=2 item2=1,False
+validation_01086,allocation,allocation,item0=1 item1=0 item2=0 item0=0 item1=3 item2=1,item0=1 item1=0 item2=1 item0=1 item1=3 item2=0,False
+validation_01087,allocation,allocation,item0=0 item1=3 item2=1 item0=1 item1=0 item2=0,item0=1 item1=3 item2=0 item0=0 item1=0 item2=1,False

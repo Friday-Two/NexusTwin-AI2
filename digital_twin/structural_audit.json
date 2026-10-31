@@ -1,0 +1,41 @@
+{
+  "train.txt": {
+    "nonempty_lines": 10095,
+    "marker_counts": {
+      "<input>": 10095,
+      "</input>": 10095,
+      "<dialogue>": 10095,
+      "</dialogue>": 10095,
+      "<output>": 10095,
+      "</output>": 10095
+    },
+    "malformed_count": 0,
+    "malformed_examples": []
+  },
+  "val.txt": {
+    "nonempty_lines": 1087,
+    "marker_counts": {
+      "<input>": 1087,
+      "</input>": 1087,
+      "<dialogue>": 1087,
+      "</dialogue>": 1087,
+      "<output>": 1087,
+      "</output>": 1087
+    },
+    "malformed_count": 0,
+    "malformed_examples": []
+  },
+  "test.txt": {
+    "nonempty_lines": 1052,
+    "marker_counts": {
+      "<input>": 1052,
+      "</input>": 1052,
+      "<dialogue>": 1052,
+      "</dialogue>": 1052,
+      "<output>": 1052,
+      "</output>": 1052
+    },
+    "malformed_count": 0,
+    "malformed_examples": []
+  }
+}
