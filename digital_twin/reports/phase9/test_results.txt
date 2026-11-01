@@ -1,0 +1,51 @@
+test_alternative_phone_field_names_are_removed (test_digital_twin.DigitalTwinTests.test_alternative_phone_field_names_are_removed) ... ok
+test_impossible_budget_does_not_reach_agreement (test_digital_twin.DigitalTwinTests.test_impossible_budget_does_not_reach_agreement) ... ok
+test_invalid_final_agreement_fails (test_digital_twin.DigitalTwinTests.test_invalid_final_agreement_fails) ... ok
+test_nested_phone_number_is_redacted (test_digital_twin.DigitalTwinTests.test_nested_phone_number_is_redacted) ... ok
+test_non_dictionary_agreement_is_rejected (test_digital_twin.DigitalTwinTests.test_non_dictionary_agreement_is_rejected) ... ok
+test_normal_request_reaches_agreement (test_digital_twin.DigitalTwinTests.test_normal_request_reaches_agreement) ... ok
+test_over_budget_offer_is_rejected (test_digital_twin.DigitalTwinTests.test_over_budget_offer_is_rejected) ... ok
+test_parse_request_extracts_nights_and_budget (test_digital_twin.DigitalTwinTests.test_parse_request_extracts_nights_and_budget) ... ok
+test_phone_is_preserved_when_sharing_is_allowed (test_digital_twin.DigitalTwinTests.test_phone_is_preserved_when_sharing_is_allowed) ... ok
+test_phone_number_in_text_is_redacted (test_digital_twin.DigitalTwinTests.test_phone_number_in_text_is_redacted) ... ok
+test_phone_sharing_policy_does_not_modify_original_message (test_digital_twin.DigitalTwinTests.test_phone_sharing_policy_does_not_modify_original_message) ... ok
+test_privacy_audit_detects_phone_leak (test_digital_twin.DigitalTwinTests.test_privacy_audit_detects_phone_leak) ... ok
+test_private_fields_are_removed_recursively (test_digital_twin.DigitalTwinTests.test_private_fields_are_removed_recursively) ... ok
+test_profile_privacy_denial_is_preserved (test_digital_twin.DigitalTwinTests.test_profile_privacy_denial_is_preserved) ... ok
+test_request_cannot_increase_profile_budget (test_digital_twin.DigitalTwinTests.test_request_cannot_increase_profile_budget) ... ok
+test_unverified_hotel_is_rejected (test_digital_twin.DigitalTwinTests.test_unverified_hotel_is_rejected) ... ok
+test_valid_final_agreement_passes (test_digital_twin.DigitalTwinTests.test_valid_final_agreement_passes) ... ok
+test_valid_offer_passes_constraints (test_digital_twin.DigitalTwinTests.test_valid_offer_passes_constraints) ... ok
+test_wrong_area_is_rejected (test_digital_twin.DigitalTwinTests.test_wrong_area_is_rejected) ... ok
+test_zero_negotiation_rounds_are_rejected (test_digital_twin.DigitalTwinTests.test_zero_negotiation_rounds_are_rejected) ... ok
+test_database_initialization (test_execution_verifier.ExecutionVerifierTests.test_database_initialization) ... ok
+test_duplicate_booking_id_does_not_overwrite_original (test_execution_verifier.ExecutionVerifierTests.test_duplicate_booking_id_does_not_overwrite_original) ... ok
+test_invalid_agreement_is_not_persisted (test_execution_verifier.ExecutionVerifierTests.test_invalid_agreement_is_not_persisted) ... ok
+test_missing_booking_fails_verification (test_execution_verifier.ExecutionVerifierTests.test_missing_booking_fails_verification) ... ok
+test_persisted_agreement_passes_verification (test_execution_verifier.ExecutionVerifierTests.test_persisted_agreement_passes_verification) ... ok
+test_tampered_agreement_snapshot_is_detected (test_execution_verifier.ExecutionVerifierTests.test_tampered_agreement_snapshot_is_detected) ... ok
+test_tampered_price_is_detected (test_execution_verifier.ExecutionVerifierTests.test_tampered_price_is_detected) ... ok
+test_valid_agreement_is_persisted (test_execution_verifier.ExecutionVerifierTests.test_valid_agreement_is_persisted) ... ok
+test_allocation_that_does_not_conserve_items (test_phase9_allocation_validator.AllocationValidatorTests.test_allocation_that_does_not_conserve_items) ... ok
+test_invalid_input_length_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_invalid_input_length_is_rejected) ... ok
+test_missing_assignment_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_missing_assignment_is_rejected) ... ok
+test_negative_allocation_value_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_negative_allocation_value_is_rejected) ... ok
+test_negative_input_value_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_negative_input_value_is_rejected) ... ok
+test_non_string_input_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_non_string_input_is_rejected) ... ok
+test_non_string_target_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_non_string_target_is_rejected) ... ok
+test_valid_allocation (test_phase9_allocation_validator.AllocationValidatorTests.test_valid_allocation) ... ok
+test_wrong_assignment_order_is_rejected (test_phase9_allocation_validator.AllocationValidatorTests.test_wrong_assignment_order_is_rejected) ... ok
+test_disagreement_is_supported_but_not_acceptable (test_phase9_inference.NegotiationInferenceTests.test_disagreement_is_supported_but_not_acceptable) ... ok
+test_disconnect_is_supported_but_not_acceptable (test_phase9_inference.NegotiationInferenceTests.test_disconnect_is_supported_but_not_acceptable) ... ok
+test_generation_uses_deterministic_settings (test_phase9_inference.NegotiationInferenceTests.test_generation_uses_deterministic_settings) ... ok
+test_invalid_allocation_is_rejected (test_phase9_inference.NegotiationInferenceTests.test_invalid_allocation_is_rejected) ... ok
+test_invalid_generation_configuration_is_rejected (test_phase9_inference.NegotiationInferenceTests.test_invalid_generation_configuration_is_rejected) ... ok
+test_negative_allocation_is_rejected (test_phase9_inference.NegotiationInferenceTests.test_negative_allocation_is_rejected) ... ok
+test_no_agreement_is_supported_but_not_acceptable (test_phase9_inference.NegotiationInferenceTests.test_no_agreement_is_supported_but_not_acceptable) ... ok
+test_unsupported_output_is_rejected (test_phase9_inference.NegotiationInferenceTests.test_unsupported_output_is_rejected) ... ok
+test_valid_allocation_prediction (test_phase9_inference.NegotiationInferenceTests.test_valid_allocation_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.118s
+
+OK

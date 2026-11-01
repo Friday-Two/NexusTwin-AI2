@@ -1,0 +1,24 @@
+{
+  "experiment": "Phase 9 - FLAN-T5 Inference",
+  "timestamp_utc": "2026-11-01T19:01:20.663657+00:00",
+  "checkpoint": "corrected_fp32",
+  "device": "cpu",
+  "inputs": {
+    "own_input": "1 4 4 1 1 2",
+    "partner_input": "1 4 4 1 1 2",
+    "dialogue": "You: I can offer one unit of item0 and one unit of item2. Partner: I would prefer more item1. You: Let us try to reach a mutually acceptable allocation."
+  },
+  "status": "completed",
+  "model_load_seconds": 4.303714499998023,
+  "prediction": {
+    "raw_output": "item0=1 item1=0 item2=1 item0=1 item1=0 item2=1",
+    "category": "allocation",
+    "is_supported": true,
+    "allocation_valid": false,
+    "validation_reason": "allocation_does_not_conserve_items",
+    "is_acceptable": false,
+    "latency_seconds": 0.45117149999714456,
+    "device": "cpu"
+  },
+  "execution_performed": false
+}
