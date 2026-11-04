@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 from pathlib import Path
 from datetime import datetime, timezone
@@ -7,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 sys.path.insert(0, str(SRC))
 
+from memory.profile_integration import build_effective_profile
 from digital_twin import negotiate, save_trace
 from execution_verifier import execute_agreement, verify_persisted_booking
 
@@ -28,6 +30,11 @@ def main():
     db_path = ROOT / "verification" / "services.db"
 
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
+    user_id = os.environ.get("DIGITAL_TWIN_USER_ID")
+    profile = build_effective_profile(
+        base_profile=profile,
+        user_id=user_id
+    )
     request = request_path.read_text(encoding="utf-8").strip()
 
     run_id = "phase7-demo-001"
